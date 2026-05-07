@@ -14,7 +14,7 @@
                             class="btn-secondary">
                         Print PDF
                     </button>
-                    <button name="action_print_xlsx" type="object"
+                    <!--<button name="action_print_xlsx" type="object"
                             class="btn-secondary">
                         Print Excel
                     </button>
@@ -25,7 +25,7 @@
                     <button name="action_share_xlsx" type="object"
                             class="btn-secondary">
                         Sent Excel By Email
-                    </button>
+                    </button>-->
                     <br/>
                     <br/>
                     <field name="customer_report_ids">
