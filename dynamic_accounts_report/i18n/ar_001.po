@@ -272,7 +272,7 @@ msgstr "<span style=\"margin-left: 6%;\">الالتزامات المتداولة
 msgid ""
 "<span style=\"margin-left: 6%;\">Payables\n"
 "                                    </span>"
-msgstr "<span style=\"margin-left: 6%;\">الدائنون\n" "                                    </span>"
+msgstr "<span style=\"margin-left: 6%;\">الذمم الدائنة\n" "                                    </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
