@@ -972,7 +972,7 @@ msgstr "تاريخ الاستحقاق"
 #. module: dynamic_accounts_report
 #: model:ir.ui.menu,name:dynamic_accounts_report.dynamic_report_accounting
 msgid "Dynamic Financial Reports"
-msgstr "التقارير المالية الديناميكية"
+msgstr "التقارير المالية"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1002,7 +1002,7 @@ msgstr "تاريخ النهاية:"
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.trial_balance
 #, python-format
 msgid "End Balance"
-msgstr "الرصيد النهائي"
+msgstr "الرصيد الختامي"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1068,7 +1068,7 @@ msgstr "نهاية العام الماضي"
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.bank_book
 #, python-format
 msgid "Entry label"
-msgstr "تسمية القيد"
+msgstr "وصف القيد"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
