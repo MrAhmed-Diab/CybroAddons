@@ -449,12 +449,12 @@ msgstr "بعد"
 #: model:ir.ui.menu,name:base_accounting_kit.menu_aged_trial_balance
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
 msgid "Aged Partner Balance"
-msgstr "أرصدة الشركاء المُسنّة"
+msgstr "أعمار أرصدة الشركاء"
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_agedpartnerbalance
 msgid "Aged Partner Balance Report"
-msgstr "تقرير أرصدة الشركاء المُسنّة"
+msgstr "  تقرير أعمار أرصدة الشركاء"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -462,7 +462,7 @@ msgstr "تقرير أرصدة الشركاء المُسنّة"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/template.xml:0
 #, python-format
 msgid "Aged Payable"
-msgstr "دائن مسن"
+msgstr "أعمار الذمم الدائنة "
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -470,7 +470,7 @@ msgstr "دائن مسن"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/template.xml:0
 #, python-format
 msgid "Aged Receivable"
-msgstr "مدين مسن"
+msgstr " أعمار الذمم المدينة"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_balance_report__display_account__all
