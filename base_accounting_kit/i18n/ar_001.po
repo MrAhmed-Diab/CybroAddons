@@ -20,29 +20,29 @@ msgstr ""
 #: code:addons/language_translation/base_accounting_kit/models/account_asset.py:0
 #, python-format
 msgid " (copy)"
-msgstr ""
+msgstr " (نسخة)"
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/models/account_asset.py:0
 #: code:addons/language_translation/base_accounting_kit/models/account_asset.py:0
 #, python-format
 msgid " (grouped)"
-msgstr ""
+msgstr " (مجمع)"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__entry_count
 msgid "# Asset Entries"
-msgstr ""
+msgstr "# قيود الأصول"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__depreciation_nbr
 msgid "# of Depreciation Lines"
-msgstr ""
+msgstr "# بنود الإهلاك"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__installment_nbr
 msgid "# of Installment Lines"
-msgstr ""
+msgstr "# بنود التقسيط"
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/models/credit_limit.py:0
@@ -51,12 +51,12 @@ msgstr ""
 #: code:addons/language_translation/base_accounting_kit/models/credit_limit.py:0
 #, python-format
 msgid "%s is in  Blocking Stage and has a due amount of %s %s to pay"
-msgstr ""
+msgstr "%s في مرحلة المنع وعليه مبلغ مستحق قدره %s %s للدفع"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
 msgid ": Bank Book Report"
-msgstr ": تقرير كتاب البنك"
+msgstr ": تقرير دفتر البنك"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
@@ -66,7 +66,7 @@ msgstr ": تقرير دفتر النقدية"
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
 msgid ": Day Book Report"
-msgstr ": تقرير كتاب اليوم"
+msgstr ": تقرير دفتر اليومية"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
@@ -76,7 +76,7 @@ msgstr ": دفتر الأستاذ العام"
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
 msgid ": Trial Balance"
-msgstr ""
+msgstr ": ميزان المراجعة"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
@@ -84,6 +84,8 @@ msgid ""
 "<br/>\n"
 "                                    <strong>Date to :</strong>"
 msgstr ""
+"<br/>\n"
+"                                    <strong>التاريخ حتى:</strong>"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_followup_followup_kanban
@@ -93,29 +95,29 @@ msgstr ""
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
 msgid "<span>Comp</span>"
-msgstr "<span> شركات </ span>"
+msgstr "<span>المقارنة</span>"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
 msgid "<span>Not due</span>"
-msgstr "<span> غير مستحقة </ span>"
+msgstr "<span>غير مستحق</span>"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
 msgid "<strong>Balance</strong>"
-msgstr "<strong> الرصيد </ strong>"
+msgstr "<strong>الرصيد</strong>"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
 msgid "<strong>Company:</strong>"
-msgstr "<strong> الشركة: </ strong>"
+msgstr "<strong>الشركة:</strong>"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
 msgid "<strong>Credit</strong>"
-msgstr "<strong> الائتمان </ strong>"
+msgstr "<strong>دائن</strong>"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
@@ -128,7 +130,7 @@ msgstr "<strong> الائتمان </ strong>"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
 msgid "<strong>Date from :</strong>"
-msgstr "<strong> التاريخ من: </ strong>"
+msgstr "<strong>التاريخ من:</strong>"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
@@ -140,34 +142,34 @@ msgstr "<strong> التاريخ من: </ strong>"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
 msgid "<strong>Date to :</strong>"
-msgstr "<strong> التاريخ إلى: </ strong>"
+msgstr "<strong>التاريخ إلى:</strong>"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
 msgid "<strong>Debit</strong>"
-msgstr "<strong> الخصم </ strong>"
+msgstr "<strong>مدين</strong>"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
 msgid "<strong>Display Account:</strong>"
-msgstr "<strong> حساب العرض: </ strong>"
+msgstr "<strong>عرض الحساب:</strong>"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
 msgid "<strong>Display Account</strong>"
-msgstr "<strong> حساب العرض </ strong>"
+msgstr "<strong>عرض الحساب</strong>"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
 msgid "<strong>Entries Sorted By:</strong>"
-msgstr "<strong> الإدخالات مرتبة حسب: </ strong>"
+msgstr "<strong>ترتيب القيود حسب:</strong>"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
 msgid "<strong>Journal:</strong>"
-msgstr "<strong> المجلة: </ strong>"
+msgstr "<strong>اليومية:</strong>"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
@@ -175,39 +177,39 @@ msgstr "<strong> المجلة: </ strong>"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
 msgid "<strong>Journals:</strong>"
-msgstr "<strong> المجلات: </ strong>"
+msgstr "<strong>اليوميات:</strong>"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
 msgid "<strong>Name</strong>"
-msgstr "<strong> الاسم </ strong>"
+msgstr "<strong>الاسم</strong>"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
 msgid "<strong>Partner's:</strong>"
-msgstr "<strong> الشريك: </ strong>"
+msgstr "<strong>الشريك:</strong>"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
 msgid "<strong>Period Length (days)</strong>"
-msgstr ""
+msgstr "<strong>طول الفترة (أيام)</strong>"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
 msgid "<strong>Purchase</strong>"
-msgstr "<strong> شراء </ strong>"
+msgstr "<strong>مشتريات</strong>"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
 msgid "<strong>Sorted By:</strong>"
-msgstr "<strong> مرتبة حسب: </ strong>"
+msgstr "<strong>مرتب حسب:</strong>"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
 msgid "<strong>Start Date:</strong>"
-msgstr "<strong> تاريخ البدء: </ strong>"
+msgstr "<strong>تاريخ البداية:</strong>"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
@@ -221,19 +223,19 @@ msgstr "<strong> تاريخ البدء: </ strong>"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
 msgid "<strong>Target Moves:</strong>"
-msgstr "<strong> حركات الهدف: </ strong>"
+msgstr "<strong>الحركات المستهدفة:</strong>"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
 msgid "<strong>Total</strong>"
-msgstr "<strong> الإجمالي </ strong>"
+msgstr "<strong>الإجمالي</strong>"
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/models/payment_matching.py:0
 #: code:addons/language_translation/base_accounting_kit/models/payment_matching.py:0
 #, python-format
 msgid "A reconciliation must involve at least 2 move lines."
-msgstr "يجب أن تتضمن التسوية خطي نقل على الأقل."
+msgstr "يجب أن تتضمن التسوية سطرَي قيد محاسبي على الأقل."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_res_partner__warning_stage
@@ -241,7 +243,7 @@ msgstr "يجب أن تتضمن التسوية خطي نقل على الأقل."
 msgid ""
 "A warning message will appear once the selected customer is crossed warning "
 "amount. Set its value to 0.00 to disable this feature"
-msgstr ""
+msgstr "ستظهر رسالة تحذيرية بمجرد تجاوز العميل المحدد لمبلغ التحذير. قم بتعيين قيمته 0.00 لتعطيل هذه الميزة"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -263,19 +265,19 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
 #, python-format
 msgid "Account"
-msgstr "حساب"
+msgstr "الحساب"
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_account_aged_trial_balance
 msgid "Account Aged Trial balance Report"
-msgstr "تقرير ميزان المراجعة المسن في الحساب"
+msgstr "تقرير ميزان المراجعة المسن للحسابات"
 
 #. module: base_accounting_kit
 #: model:ir.actions.server,name:base_accounting_kit.account_asset_cron_ir_actions_server
 #: model:ir.cron,cron_name:base_accounting_kit.account_asset_cron
 #: model:ir.cron,name:base_accounting_kit.account_asset_cron
 msgid "Account Asset: Generate asset entries"
-msgstr "أصل الحساب: إنشاء إدخالات الأصول"
+msgstr "أصل الحساب: إنشاء قيود الأصول"
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_account_bank_book_report
@@ -285,52 +287,52 @@ msgstr "تقرير دفتر بنك الحساب"
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_account_cash_book_report
 msgid "Account Cash Book Report"
-msgstr "تقرير دفتر النقدية للحساب"
+msgstr "تقرير دفتر نقدية الحساب"
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_account_common_account_report
 msgid "Account Common Account Report"
-msgstr "تقرير الحساب المشترك"
+msgstr "تقرير الحسابات المشتركة"
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_account_common_partner_report
 msgid "Account Common Partner Report"
-msgstr "تقرير الشريك المشترك للحساب"
+msgstr "تقرير الشركاء المشتركين"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_asset_depreciation_confirmation_wizard__date
 msgid "Account Date"
-msgstr "تاريخ الحساب"
+msgstr "تاريخ المحاسبة"
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_account_day_book_report
 msgid "Account Day Book Report"
-msgstr "تقرير دفتر يوم الحساب"
+msgstr "تقرير دفتر اليومية للحسابات"
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_account_followup
 msgid "Account Follow-up"
-msgstr "متابعة الحساب"
+msgstr "متابعة الحسابات"
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_account_report_partner_ledger
 msgid "Account Partner Ledger"
-msgstr "حساب شريك الأستاذ"
+msgstr "دفتر أستاذ حسابات الشركاء"
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_account_print_journal
 msgid "Account Print Journal"
-msgstr "طباعة دفتر اليومية"
+msgstr "طباعة اليومية"
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_account_reconciliation_widget
 msgid "Account Reconciliation widget"
-msgstr "أداة تسوية الحساب"
+msgstr "أداة تسوية الحسابات"
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_account_recurring_entries_line
 msgid "Account Recurring Entries Line"
-msgstr "سطر إدخالات الحساب المتكررة"
+msgstr "بند القيود المحاسبية المتكررة"
 
 #. module: base_accounting_kit
 #: model:ir.actions.client,name:base_accounting_kit.action_account_invoice_report_all
@@ -340,14 +342,14 @@ msgstr "سطر إدخالات الحساب المتكررة"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_financial_report_search
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_financial_report_tree
 msgid "Account Report"
-msgstr "تقرير الحساب"
+msgstr "تقرير حسابي"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__account_report_id
 #: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__account_report_id
 #: model:ir.ui.menu,name:base_accounting_kit.menu_account_financial_reports_tree
 msgid "Account Reports"
-msgstr "تقارير الحساب"
+msgstr "تقارير محاسبية"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
@@ -367,35 +369,35 @@ msgstr "أنواع الحسابات"
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__account_depreciation_id
 msgid "Account used in the depreciation entries, to decrease the asset value."
-msgstr ""
+msgstr "الحساب المستخدم في قيود الإهلاك لتخفيض قيمة الأصل."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__account_depreciation_expense_id
 msgid ""
 "Account used in the periodical entries, to record a part of the asset as "
 "expense."
-msgstr ""
+msgstr "الحساب المستخدم في القيود الدورية لتسجيل جزء من الأصل كمصروف."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__account_asset_id
 msgid ""
 "Account used to record the purchase of the asset at its original price."
-msgstr ""
+msgstr "الحساب المستخدم لتسجيل شراء الأصل بسعره الأصلي."
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.res_config_settings_view_accounting_kit
 msgid "Accounting"
-msgstr "محاسبة"
+msgstr "المحاسبة"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_recurring_payments_form_view
 msgid "Accounting Info"
-msgstr "معلومات المحاسبة"
+msgstr "معلومات محاسبية"
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_account_recurring_payments
 msgid "Accounting Recurring Payment"
-msgstr "المدفوعات المحاسبية المتكررة"
+msgstr "الدفعات المحاسبية المتكررة"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -403,7 +405,7 @@ msgstr "المدفوعات المحاسبية المتكررة"
 #: code:addons/language_translation/base_accounting_kit/static/src/js/account_asset.js:0
 #, python-format
 msgid "Accounting entries waiting for manual verification"
-msgstr "إدخالات المحاسبة في انتظار التحقق اليدوي"
+msgstr "قيود محاسبية في انتظار المراجعة اليدوية"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__account_ids
@@ -417,13 +419,13 @@ msgstr "حسابات"
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_needaction
 msgid "Action Needed"
-msgstr "الإجراءات اللازمة"
+msgstr "إجراء مطلوب"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__active
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__active
 msgid "Active"
-msgstr "نشيط"
+msgstr "نشط"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__active_limit
@@ -434,7 +436,7 @@ msgstr "حد الائتمان النشط"
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
 msgid "Additional Options"
-msgstr "خيارات اضافية"
+msgstr "خيارات إضافية"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_followup_followup_line_form
@@ -447,12 +449,12 @@ msgstr "بعد"
 #: model:ir.ui.menu,name:base_accounting_kit.menu_aged_trial_balance
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
 msgid "Aged Partner Balance"
-msgstr "رصيد الشريك المسن"
+msgstr "أرصدة الشركاء المُسنّة"
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_agedpartnerbalance
 msgid "Aged Partner Balance Report"
-msgstr "تقرير رصيد الشريك المسن"
+msgstr "تقرير أرصدة الشركاء المُسنّة"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -460,7 +462,7 @@ msgstr "تقرير رصيد الشريك المسن"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/template.xml:0
 #, python-format
 msgid "Aged Payable"
-msgstr "مسن دائن"
+msgstr "دائن مسن"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -468,7 +470,7 @@ msgstr "مسن دائن"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/template.xml:0
 #, python-format
 msgid "Aged Receivable"
-msgstr "مستحق قديم"
+msgstr "مدين مسن"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_balance_report__display_account__all
@@ -494,7 +496,7 @@ msgstr "الكل"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
 msgid "All Entries"
-msgstr "كل المقالات"
+msgstr "جميع القيود"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_bank_book_report__target_move__posted
@@ -511,7 +513,7 @@ msgstr "كل المقالات"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
 msgid "All Posted Entries"
-msgstr "جميع المشاركات المنشورة"
+msgstr "جميع القيود المرحّلة"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
@@ -533,7 +535,7 @@ msgstr "جميع الحسابات"
 msgid ""
 "All invoices and payments have been matched, your accounts' balances are "
 "clean."
-msgstr ""
+msgstr "تمت مطابقة جميع الفواتير والمدفوعات، أرصدة حساباتك نظيفة."
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -549,17 +551,17 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__amount
 #, python-format
 msgid "Amount"
-msgstr "كمية"
+msgstr "المبلغ"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__depreciation_value
 msgid "Amount of Depreciation Lines"
-msgstr "مقدار خطوط الاستهلاك"
+msgstr "قيمة بنود الإهلاك"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__installment_value
 msgid "Amount of Installment Lines"
-msgstr "مقدار خطوط التقسيط"
+msgstr "قيمة بنود التقسيط"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -567,13 +569,13 @@ msgstr "مقدار خطوط التقسيط"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Analytic Acc."
-msgstr "Acc التحليلي"
+msgstr "حساب تحليلي"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__account_analytic_id
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__analytic_account_id
 msgid "Analytic Account"
-msgstr "حساب تحليلي"
+msgstr "الحساب التحليلي"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -581,7 +583,7 @@ msgstr "حساب تحليلي"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Analytic Tags."
-msgstr "العلامات التحليلية."
+msgstr "الوسوم التحليلية"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__asset_id
@@ -596,19 +598,19 @@ msgstr "الأصل"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__account_asset_id
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_search
 msgid "Asset Account"
-msgstr "حساب الأصول"
+msgstr "حساب الأصل"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_move_line__asset_category_id
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_invoice_asset_category
 msgid "Asset Category"
-msgstr "فئة الأصول"
+msgstr "فئة الأصل"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.asset_modify_form
 msgid "Asset Durations to Modify"
-msgstr "مدد الأصول المراد تعديلها"
+msgstr "فترات الأصل المراد تعديلها"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_move_line__asset_end_date
@@ -618,7 +620,7 @@ msgstr "تاريخ انتهاء الأصل"
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_asset_modify__asset_method_time
 msgid "Asset Method Time"
-msgstr "وقت أسلوب الأصول"
+msgstr "طريقة احتساب وقت الأصل"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__name
@@ -636,7 +638,7 @@ msgstr "تاريخ بدء الأصل"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_product_template__asset_category_id
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
 msgid "Asset Type"
-msgstr "نوع الأصول"
+msgstr "نوع الأصل"
 
 #. module: base_accounting_kit
 #: model:ir.actions.act_window,name:base_accounting_kit.action_account_asset_asset_list_normal_purchase
@@ -650,7 +652,7 @@ msgstr "أنواع الأصول"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_tree
 msgid "Asset category"
-msgstr "فئة الأصول"
+msgstr "فئة الأصل"
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/models/account_asset.py:0
@@ -662,19 +664,19 @@ msgstr "تم إنشاء الأصل"
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_account_asset_depreciation_line
 msgid "Asset depreciation line"
-msgstr "خط إهلاك الأصول"
+msgstr "بند إهلاك الأصل"
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/models/account_asset.py:0
 #: code:addons/language_translation/base_accounting_kit/models/account_asset.py:0
 #, python-format
 msgid "Asset sold or disposed. Accounting entry awaiting for validation."
-msgstr "بيع الأصول أو التخلص منها. قيد المحاسبة في انتظار التحقق من صحته."
+msgstr "تم بيع الأصل أو التخلص منه. قيد محاسبي في انتظار الترحيل."
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_account_asset_asset
 msgid "Asset/Revenue Recognition"
-msgstr "الاعتراف بالأصول / الإيرادات"
+msgstr "الاعتراف بالأصول/الإيرادات"
 
 #. module: base_accounting_kit
 #: model:account.financial.report,name:base_accounting_kit.account_financial_report_assets0
@@ -700,7 +702,7 @@ msgstr "تحليل الأصول"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_move__asset_depreciation_ids
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment__asset_depreciation_ids
 msgid "Assets Depreciation Lines"
-msgstr "خطوط إهلاك الأصول"
+msgstr "بنود إهلاك الأصول"
 
 #. module: base_accounting_kit
 #: model:ir.ui.menu,name:base_accounting_kit.menu_finance_config_assets
@@ -715,17 +717,17 @@ msgstr "الأصول في حالة مغلقة"
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_search
 msgid "Assets in draft and open states"
-msgstr "الأصول في حالات السحب والمفتوحة"
+msgstr "الأصول في حالة مسودة ومفتوحة"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
 msgid "Assets in draft state"
-msgstr "الأصول في حالة المسودة"
+msgstr "الأصول في حالة مسودة"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
 msgid "Assets in running state"
-msgstr "الأصول في حالة التشغيل"
+msgstr "الأصول في حالة تشغيل"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_attachment_count
@@ -735,7 +737,7 @@ msgstr "عدد المرفقات"
 #. module: base_accounting_kit
 #: model:ir.ui.menu,name:base_accounting_kit.account_reports_audit
 msgid "Audit Reports"
-msgstr "تقارير التدقيق"
+msgstr "تقارير المراجعة"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__open_asset
@@ -753,7 +755,7 @@ msgstr "تنسيق تلقائي"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/template.xml:0
 #, python-format
 msgid "BANK AND CASH BALANCE"
-msgstr "الرصيد المصرفي والنقدي"
+msgstr "الرصيد البنكي والنقدي"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
@@ -764,19 +766,19 @@ msgstr "الرصيد المصرفي والنقدي"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
 msgid "Balance"
-msgstr "توازن"
+msgstr "الرصيد"
 
 #. module: base_accounting_kit
 #: model:account.financial.report,name:base_accounting_kit.account_financial_report_balancesheet0
 #: model:ir.actions.act_window,name:base_accounting_kit.action_balance_sheet_report
 #: model:ir.ui.menu,name:base_accounting_kit._account_financial_reports_balance_sheet
 msgid "Balance Sheet"
-msgstr "ورقة التوازن"
+msgstr "الميزانية العمومية"
 
 #. module: base_accounting_kit
 #: model:ir.ui.menu,name:base_accounting_kit.account_bank_book_menu
 msgid "Bank Book"
-msgstr "كتاب البنك"
+msgstr "دفتر البنك"
 
 #. module: base_accounting_kit
 #: model:ir.actions.act_window,name:base_accounting_kit.action_account_bank_book_view
@@ -792,7 +794,7 @@ msgstr "تقرير دفتر البنك"
 #: code:addons/language_translation/base_accounting_kit/static/src/js/payment_matching.js:0
 #, python-format
 msgid "Bank Reconciliation"
-msgstr "التسويات المصرفية"
+msgstr "تسوية بنكية"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment__bank_reference
@@ -803,7 +805,7 @@ msgstr "مرجع البنك"
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
 msgid "Base Amount"
-msgstr "كمية أساسية"
+msgstr "المبلغ الأساسي"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__blocking_stage
@@ -828,7 +830,7 @@ msgstr "إلغاء"
 msgid ""
 "Cannot make sales once the selected customer is crossed blocking amount.Set "
 "its value to 0.00 to disable this feature"
-msgstr ""
+msgstr "لا يمكن إجراء مبيعات بمجرد تجاوز العميل المحدد لمبلغ المنع. قم بتعيين قيمته 0.00 لتعطيل هذه الميزة"
 
 #. module: base_accounting_kit
 #: model:ir.ui.menu,name:base_accounting_kit.account_cash_book_menu
@@ -856,7 +858,7 @@ msgstr "تقرير التدفق النقدي"
 #: model:ir.actions.report,name:base_accounting_kit.action_report_cash_flow
 #: model:ir.ui.menu,name:base_accounting_kit.menu_account_cash_flow_report
 msgid "Cash Flow Statement"
-msgstr "بيان التدفقات النقدية"
+msgstr "قائمة التدفقات النقدية"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_account__cash_flow_type
@@ -875,7 +877,7 @@ msgstr "التدفقات النقدية الداخلة"
 #: model:account.financial.report,name:base_accounting_kit.cash_out_investing1
 #: model:account.financial.report,name:base_accounting_kit.cash_out_operation1
 msgid "Cash Out"
-msgstr "المصروفات"
+msgstr "التدفقات النقدية الخارجة"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__category_id
@@ -887,7 +889,7 @@ msgstr "الفئة"
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
 msgid "Category of asset"
-msgstr "فئة الأصول"
+msgstr "فئة الأصل"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -895,7 +897,7 @@ msgstr "فئة الأصول"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Check all"
-msgstr "تحقق من الكل"
+msgstr "تحديد الكل"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -903,25 +905,25 @@ msgstr "تحقق من الكل"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Check that you have no bank statement lines to"
-msgstr "تحقق من عدم وجود أسطر كشف حساب بنكي لـ"
+msgstr "تأكد من عدم وجود سطور كشف حساب بنكي لـ"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__open_asset
 msgid ""
 "Check this if you want to automatically confirm the assets of this category "
 "when created by invoices."
-msgstr ""
+msgstr "حدد هذا إذا كنت تريد تأكيد أصول هذه الفئة تلقائيًا عند إنشائها عن طريق الفواتير."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__group_entries
 msgid "Check this if you want to group the generated entries by categories."
-msgstr "حدد هذا الخيار إذا كنت تريد تجميع الإدخالات التي تم إنشاؤها حسب الفئات."
+msgstr "حدد هذا إذا كنت تريد تجميع القيود المُنشأة حسب الفئات."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment__cheque_reference
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment_register__cheque_reference
 msgid "Cheque Reference"
-msgstr "تحقق من المرجع"
+msgstr "مرجع الشيك"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -929,7 +931,7 @@ msgstr "تحقق من المرجع"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Choose counterpart or Create Write-off"
-msgstr "اختر نظيرًا أو أنشئ شطبًا"
+msgstr "اختر الحساب المقابل أو أنشئ إعدامًا"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__method
@@ -938,7 +940,7 @@ msgid ""
 "Choose the method to use to compute the amount of depreciation lines.\n"
 "  * Linear: Calculated on basis of: Gross Value / Number of Depreciations\n"
 "  * Degressive: Calculated on basis of: Residual Value * Degressive Factor"
-msgstr ""
+msgstr "اختر الطريقة المستخدمة لحساب قيمة بنود الإهلاك.\n  * القسط الثابت: تُحسب على أساس: القيمة الإجمالية / عدد مرات الإهلاك\n  * المتناقص: تُحسب على أساس: القيمة المتبقية * عامل الإهلاك المتناقص"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__method_time
@@ -947,14 +949,14 @@ msgid ""
 "Choose the method to use to compute the dates and number of entries.\n"
 "  * Number of Entries: Fix the number of entries and the time between 2 depreciations.\n"
 "  * Ending Date: Choose the time between 2 depreciations and the date the depreciations won't go beyond."
-msgstr ""
+msgstr "اختر الطريقة المستخدمة لحساب التواريخ وعدد القيود.\n  * عدد القيود: تحديد عدد القيود والفترة الزمنية بين كل إهلاكين.\n  * تاريخ الانتهاء: اختيار الفترة الزمنية بين كل إهلاكين والتاريخ الذي لن تتجاوزه الإهلاكات."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_asset_depreciation_confirmation_wizard__date
 msgid ""
 "Choose the period for which you want to automatically post the depreciation "
 "lines of running assets"
-msgstr ""
+msgstr "اختر الفترة التي تريد ترحيل بنود إهلاك الأصول قيد التشغيل تلقائيًا"
 
 #. module: base_accounting_kit
 #: model_terms:ir.actions.act_window,help:base_accounting_kit.action_account_recurring_payments_view
@@ -971,7 +973,7 @@ msgstr "انقر لإنشاء قالب دفع متكرر جديد"
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__asset_asset_report__state__close
 #, python-format
 msgid "Close"
-msgstr "قريب"
+msgstr "إقفال"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -979,17 +981,17 @@ msgstr "قريب"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Close statement"
-msgstr "بيان وثيق"
+msgstr "إقفال القائمة"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_search
 msgid "Closed"
-msgstr "مغلق"
+msgstr "مقفل"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
 msgid "Code"
-msgstr "الشفرة"
+msgstr "الكود"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__label_filter
@@ -1018,7 +1020,7 @@ msgstr "تسمية العمود"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__company_id
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
 msgid "Company"
-msgstr "شركة"
+msgstr "الشركة"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_followup__name
@@ -1034,27 +1036,27 @@ msgstr "مقارنة"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__method
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__method
 msgid "Computation Method"
-msgstr "طريقة الحساب"
+msgstr "طريقة الاحتساب"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_depreciation_confirmation_wizard
 msgid "Compute Asset"
-msgstr "حساب الأصول"
+msgstr "احتساب الأصل"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
 msgid "Compute Depreciation"
-msgstr "حساب الإهلاك"
+msgstr "احتساب الإهلاك"
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_res_config_settings
 msgid "Config Settings"
-msgstr "ضبط الاعدادات"
+msgstr "إعدادات التهيئة"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
 msgid "Confirm"
-msgstr "تؤكد"
+msgstr "تأكيد"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -1062,12 +1064,12 @@ msgstr "تؤكد"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Congrats, you're all done!"
-msgstr "تهانينا ، لقد انتهيت من كل شيء!"
+msgstr "تهانينا، لقد انتهيت!"
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_res_partner
 msgid "Contact"
-msgstr "جهة الاتصال"
+msgstr "جهة اتصال"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -1075,7 +1077,7 @@ msgstr "جهة الاتصال"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Create a counterpart"
-msgstr "خلق نظير"
+msgstr "إنشاء حساب مقابل"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -1090,14 +1092,14 @@ msgstr "إنشاء نموذج"
 #: code:addons/language_translation/base_accounting_kit/wizard/asset_depreciation_confirmation_wizard.py:0
 #, python-format
 msgid "Created Asset Moves"
-msgstr "عمليات نقل الأصول المُنشأة"
+msgstr "حركات الأصول التي تم إنشاؤها"
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/wizard/asset_depreciation_confirmation_wizard.py:0
 #: code:addons/language_translation/base_accounting_kit/wizard/asset_depreciation_confirmation_wizard.py:0
 #, python-format
 msgid "Created Revenue Moves"
-msgstr "تحركات الإيرادات المُنشأة"
+msgstr "حركات الإيرادات التي تم إنشاؤها"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__create_uid
@@ -1165,28 +1167,28 @@ msgstr "أنشئ في"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
 msgid "Credit"
-msgstr "ائتمان"
+msgstr "دائن"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__credit_account
 msgid "Credit Account"
-msgstr "حساب الائتمان"
+msgstr "حساب دائن"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_customer_form
 msgid "Credit Limit"
-msgstr "الحد الائتماني"
+msgstr "حد الائتمان"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__enable_credit_limit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_res_users__enable_credit_limit
 msgid "Credit Limit Enabled"
-msgstr "تمكين حد الائتمان"
+msgstr "تفعيل حد الائتمان"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__depreciated_value
 msgid "Cumulative Depreciation"
-msgstr "الاهلاك التراكمي"
+msgstr "الإهلاك المتراكم"
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/models/account_asset.py:0
@@ -1200,12 +1202,12 @@ msgstr "الاهلاك التراكمي"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
 #, python-format
 msgid "Currency"
-msgstr "عملة"
+msgstr "العملة"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_search
 msgid "Current"
-msgstr "تيار"
+msgstr "حالي"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__amount
@@ -1223,7 +1225,7 @@ msgstr "حد ائتمان العميل"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/template.xml:0
 #, python-format
 msgid "Customer Invoice"
-msgstr "فاتورة العميل"
+msgstr "فاتورة عميل"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -1231,12 +1233,12 @@ msgstr "فاتورة العميل"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Customer/Vendor Matching"
-msgstr "مطابقة العملاء / البائعين"
+msgstr "مطابقة عميل/مورد"
 
 #. module: base_accounting_kit
 #: model:ir.ui.menu,name:base_accounting_kit.account_reports_daily_reports
 msgid "Daily Reports"
-msgstr "التقارير اليومية"
+msgstr "تقارير يومية"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -1245,7 +1247,7 @@ msgstr "التقارير اليومية"
 #: model:ir.ui.menu,name:base_accounting_kit.menu_accounting_dashboard
 #, python-format
 msgid "Dashboard"
-msgstr "لوحة القيادة"
+msgstr "لوحة المعلومات"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -1274,12 +1276,12 @@ msgstr "التاريخ"
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__date_to_cmp
 msgid "Date End"
-msgstr "تاريخ الانتهاء"
+msgstr "تاريخ النهاية"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__date_from_cmp
 msgid "Date Start"
-msgstr "تاريخ البدء"
+msgstr "تاريخ البداية"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
@@ -1294,29 +1296,29 @@ msgstr "تاريخ شراء الأصل"
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
 msgid "Date of depreciation"
-msgstr "تاريخ الاستهلاك"
+msgstr "تاريخ الإهلاك"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.cash_flow_report_view
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.financial_report_wiz_modified
 msgid "Dates"
-msgstr "تواريخ"
+msgstr "التواريخ"
 
 #. module: base_accounting_kit
 #: model:ir.ui.menu,name:base_accounting_kit.account_day_book_menu
 msgid "Day Book"
-msgstr "كتاب اليوم"
+msgstr "دفتر اليومية"
 
 #. module: base_accounting_kit
 #: model:ir.actions.report,name:base_accounting_kit.day_book_pdf_report
 msgid "Day Book PDF Report"
-msgstr "تقرير PDF للكتاب اليومي"
+msgstr "تقرير دفتر اليومية PDF"
 
 #. module: base_accounting_kit
 #: model:ir.actions.act_window,name:base_accounting_kit.action_account_day_book_view
 #: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_day_book_report_template
 msgid "Day Book Report"
-msgstr "تقرير كتاب اليوم"
+msgstr "تقرير دفتر اليومية"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_recurring_payments__recurring_period__days
@@ -1350,7 +1352,7 @@ msgstr "حساب الإيرادات المؤجلة"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_product_template__deferred_revenue_category_id
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
 msgid "Deferred Revenue Type"
-msgstr "نوع الإيرادات المؤجلة"
+msgstr "نوع الإيراد المؤجل"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_search
@@ -1360,29 +1362,29 @@ msgstr "الإيرادات المؤجلة"
 #. module: base_accounting_kit
 #: model_terms:ir.actions.act_window,help:base_accounting_kit.action_account_followup_definition_form
 msgid "Define follow-up levels and their related actions"
-msgstr "تحديد مستويات المتابعة والإجراءات المتعلقة بها"
+msgstr "تحديد مستويات المتابعة والإجراءات المرتبطة بها"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_asset__method__degressive
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_category__method__degressive
 msgid "Degressive"
-msgstr "الانحدار"
+msgstr "متناقص"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__method_progress_factor
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__method_progress_factor
 msgid "Degressive Factor"
-msgstr "عامل الانحدار"
+msgstr "عامل الإهلاك المتناقص"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
 msgid "Depreciation"
-msgstr "الاستهلاك"
+msgstr "الإهلاك"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
 msgid "Depreciation Board"
-msgstr "مجلس الإهلاك"
+msgstr "جدول الإهلاك"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__depreciation_date
@@ -1393,17 +1395,17 @@ msgstr "تاريخ الإهلاك"
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__account_depreciation_id
 msgid "Depreciation Entries: Asset Account"
-msgstr "إدخالات الإهلاك: حساب الأصول"
+msgstr "قيود الإهلاك: حساب الأصل"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__account_depreciation_expense_id
 msgid "Depreciation Entries: Expense Account"
-msgstr "إدخالات الإهلاك: حساب المصاريف"
+msgstr "قيود الإهلاك: حساب المصروف"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__move_id
 msgid "Depreciation Entry"
-msgstr "إدخال الإهلاك"
+msgstr "قيد الإهلاك"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
@@ -1414,7 +1416,7 @@ msgstr "معلومات الإهلاك"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__depreciation_line_ids
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
 msgid "Depreciation Lines"
-msgstr "خطوط الإهلاك"
+msgstr "بنود الإهلاك"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
@@ -1436,7 +1438,7 @@ msgstr "اسم الإهلاك"
 #: code:addons/language_translation/base_accounting_kit/wizard/asset_modify.py:0
 #, python-format
 msgid "Depreciation board modified"
-msgstr "تم تعديل لوحة الإهلاك"
+msgstr "تم تعديل جدول الإهلاك"
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/models/account_asset.py:0
@@ -1452,12 +1454,12 @@ msgstr "تم ترحيل بند الإهلاك."
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__description
 #, python-format
 msgid "Description"
-msgstr "وصف"
+msgstr "الوصف"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_recurring_payments_form_view
 msgid "Description..."
-msgstr "وصف..."
+msgstr "الوصف..."
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.financial_report_wiz_modified
@@ -1477,7 +1479,7 @@ msgstr "عرض الحسابات"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__debit_credit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__debit_credit
 msgid "Display Debit/Credit Columns"
-msgstr "عرض أعمدة الخصم / الائتمان"
+msgstr "عرض أعمدة المدين/الدائن"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_account__display_name
@@ -1533,12 +1535,12 @@ msgstr "الاسم المعروض"
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__display_detail__detail_flat
 msgid "Display children flat"
-msgstr "عرض الأطفال مسطح"
+msgstr "عرض التفاصيل الفرعية بشكل مسطح"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__display_detail__detail_with_hierarchy
 msgid "Display children with hierarchy"
-msgstr "عرض الأطفال مع التسلسل الهرمي"
+msgstr "عرض التفاصيل الفرعية بتسلسل هرمي"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__display_detail
@@ -1550,21 +1552,21 @@ msgstr "عرض التفاصيل"
 #: code:addons/language_translation/base_accounting_kit/models/account_asset.py:0
 #, python-format
 msgid "Disposal Move"
-msgstr "نقل التخلص"
+msgstr "حركة التخلص"
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/models/account_asset.py:0
 #: code:addons/language_translation/base_accounting_kit/models/account_asset.py:0
 #, python-format
 msgid "Disposal Moves"
-msgstr ""
+msgstr "حركات التخلص"
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/models/account_asset.py:0
 #: code:addons/language_translation/base_accounting_kit/models/account_asset.py:0
 #, python-format
 msgid "Document closed."
-msgstr "تحركات التخلص"
+msgstr "تم إغلاق المستند."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_asset__state__draft
@@ -1572,7 +1574,7 @@ msgstr "تحركات التخلص"
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__asset_asset_report__state__draft
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
 msgid "Draft"
-msgstr "مشروع"
+msgstr "مسودة"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -1591,20 +1593,20 @@ msgstr "أيام الاستحقاق"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment__effective_date
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment_register__effective_date
 msgid "Effective Date"
-msgstr "تاريخ النفاذ"
+msgstr "تاريخ السريان"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_payment__effective_date
 #: model:ir.model.fields,help:base_accounting_kit.field_account_payment_register__effective_date
 msgid "Effective date of PDC"
-msgstr "تاريخ نفاذ PDC"
+msgstr "تاريخ سريان الشيك المؤجل"
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/models/payment_matching.py:0
 #: code:addons/language_translation/base_accounting_kit/models/payment_matching.py:0
 #, python-format
 msgid "Either pass both debit and credit or none."
-msgstr "إما أن تمرر كلاً من الخصم والائتمان أو لا شيء."
+msgstr "إما تمرير كل من المدين والدائن أو لا شيء."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__enable_filter
@@ -1650,7 +1652,7 @@ msgstr "تاريخ الانتهاء"
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal__sort_selection
 msgid "Entries Sorted by"
-msgstr "قيود يوميه مصنفة حسب"
+msgstr "ترتيب القيود حسب"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
@@ -1658,7 +1660,7 @@ msgstr "قيود يوميه مصنفة حسب"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
 msgid "Entry Label"
-msgstr "بطاقة الدخول"
+msgstr "وصف القيد"
 
 #. module: base_accounting_kit
 #: model:account.financial.report,name:base_accounting_kit.account_financial_report_expense0
@@ -1668,7 +1670,7 @@ msgstr "مصروف"
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
 msgid "Extended Filters..."
-msgstr "المرشحات الممتدة ..."
+msgstr "مرشحات موسعة..."
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -1687,7 +1689,7 @@ msgstr "رابط خارجي"
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__filter_cmp
 msgid "Filter by"
-msgstr "مصنف بواسطة"
+msgstr "تصفية حسب"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -1695,7 +1697,7 @@ msgstr "مصنف بواسطة"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Filter on account, label, partner, amount,..."
-msgstr "تصفية حسب الحساب ، التسمية ، الشريك ، المبلغ ، ..."
+msgstr "تصفية حسب الحساب، التسمية، الشريك، المبلغ،..."
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_financial
@@ -1721,7 +1723,7 @@ msgstr "تقارير مالية"
 #. module: base_accounting_kit
 #: model:account.financial.report,name:base_accounting_kit.account_financial_report_financing_activity1
 msgid "Financing Activities"
-msgstr "أنشطة التمويل"
+msgstr "أنشطة تمويلية"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line__followup_id
@@ -1731,7 +1733,7 @@ msgstr "المتابعات"
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line__name
 msgid "Follow-Up Action"
-msgstr "اتبع الحركة"
+msgstr "إجراء المتابعة"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_followup__followup_line_ids
@@ -1759,7 +1761,7 @@ msgstr "تقارير المتابعة"
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_tree_view
 msgid "Follow-up Reports Tree View"
-msgstr "متابعة تقارير الشجرة"
+msgstr "عرض شجري لتقارير المتابعة"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_followup_followup_line_form
@@ -1775,12 +1777,12 @@ msgstr "متابعون"
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_channel_ids
 msgid "Followers (Channels)"
-msgstr "المتابعون (القنوات)"
+msgstr "متابعون (قنوات)"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "المتابعون (الشركاء)"
+msgstr "متابعون (شركاء)"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__followup_status
@@ -1796,7 +1798,7 @@ msgid ""
 "the sign of the balance; e.g.: Expense account. The same applies for "
 "accounts that are typically more credited than debited and that you would "
 "like to print as positive amounts in your reports; e.g.: Income account."
-msgstr ""
+msgstr "بالنسبة للحسابات التي عادة ما تكون مدينة أكثر من دائنة وتريد طباعتها كمبالغ سالبة في تقاريرك، يجب عليك عكس إشارة الرصيد؛ على سبيل المثال: حساب المصروف. وينطبق الشيء نفسه على الحسابات التي عادة ما تكون دائنة أكثر من مدينة وتريد طباعتها كمبالغ موجبة في تقاريرك؛ على سبيل المثال: حساب الدخل."
 
 #. module: base_accounting_kit
 #: model_terms:ir.actions.act_window,help:base_accounting_kit.action_account_followup_definition_form
@@ -1804,7 +1806,7 @@ msgid ""
 "For each step, specify the actions to be taken and delay in days. It is\n"
 "                possible to use print and e-mail templates to send specific messages to\n"
 "                the customer."
-msgstr ""
+msgstr "لكل خطوة، حدد الإجراءات التي سيتم اتخاذها والتأخير بالأيام. من الممكن استخدام قوالب الطباعة والبريد الإلكتروني لإرسال رسائل محددة إلى العميل."
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/report/account_bank_book.py:0
@@ -1829,12 +1831,12 @@ msgstr ""
 #: code:addons/language_translation/base_accounting_kit/report/report_trial_balance.py:0
 #, python-format
 msgid "Form content is missing, this report cannot be printed."
-msgstr "محتوى النموذج مفقود ، لا يمكن طباعة هذا التقرير."
+msgstr "محتوى النموذج مفقود، لا يمكن طباعة هذا التقرير."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__view_format
 msgid "Format"
-msgstr "شكل"
+msgstr "تنسيق"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -1842,14 +1844,14 @@ msgstr "شكل"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "From now on, you may want to:"
-msgstr "من الآن فصاعدًا ، قد ترغب في:"
+msgstr "من الآن فصاعدًا، قد ترغب في:"
 
 #. module: base_accounting_kit
 #: model_terms:ir.actions.act_window,help:base_accounting_kit.action_asset_asset_report
 msgid ""
 "From this report, you can have an overview on all depreciations. The\n"
 "            search bar can also be used to personalize your assets depreciation reporting."
-msgstr ""
+msgstr "من خلال هذا التقرير، يمكنك الحصول على نظرة عامة على جميع الإهلاكات. يمكن أيضًا استخدام شريط البحث لتخصيص تقرير إهلاك الأصول الخاص بك."
 
 #. module: base_accounting_kit
 #: model:ir.actions.act_window,name:base_accounting_kit.action_account_general_ledger_menu
@@ -1867,34 +1869,34 @@ msgstr "تقرير دفتر الأستاذ العام"
 #. module: base_accounting_kit
 #: model:ir.ui.menu,name:base_accounting_kit.menu_asset_depreciation_confirmation_wizard
 msgid "Generate Assets Entries"
-msgstr "إنشاء إدخالات الأصول"
+msgstr "إنشاء قيود الأصول"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_depreciation_confirmation_wizard
 msgid "Generate Entries"
-msgstr "توليد إدخالات"
+msgstr "إنشاء قيود"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__journal_state
 msgid "Generate Journal As"
-msgstr "إنشاء مجلة باسم"
+msgstr "إنشاء اليومية كـ"
 
 #. module: base_accounting_kit
 #: model:ir.actions.server,name:base_accounting_kit.recurring_template_cron_ir_actions_server
 #: model:ir.cron,cron_name:base_accounting_kit.recurring_template_cron
 #: model:ir.cron,name:base_accounting_kit.recurring_template_cron
 msgid "Generate Recurring Entries"
-msgstr "إنشاء إدخالات متكررة"
+msgstr "إنشاء قيود متكررة"
 
 #. module: base_accounting_kit
 #: model:ir.ui.menu,name:base_accounting_kit.account_reports_generic_statements
 msgid "Generic Statements"
-msgstr "بيانات عامة"
+msgstr "كشوفات عامة"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_followup_line__sequence
 msgid "Gives the sequence order when displaying a list of follow-up lines."
-msgstr "يعطي ترتيب التسلسل عند عرض قائمة سطور المتابعة."
+msgstr "يعطي ترتيب التسلسل عند عرض قائمة بنود المتابعة."
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -1902,7 +1904,7 @@ msgstr "يعطي ترتيب التسلسل عند عرض قائمة سطور ا�
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Go to bank statement(s)"
-msgstr "انتقل إلى كشوف الحسابات البنكية"
+msgstr "اذهب إلى كشف (كشوف) الحساب البنكي"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -1925,24 +1927,24 @@ msgstr "القيمة الإجمالية"
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
 msgid "Gross value of asset"
-msgstr "القيمة الإجمالية للأصول"
+msgstr "القيمة الإجمالية للأصل"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_financial_report_search
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
 msgid "Group By"
-msgstr "مجموعة من"
+msgstr "تجميع حسب"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_search
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_search
 msgid "Group By..."
-msgstr "مجموعة من..."
+msgstr "تجميع حسب..."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__group_entries
 msgid "Group Journal Entries"
-msgstr "إدخالات دفتر اليومية المجموعة"
+msgstr "تجميع قيود اليومية"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement_line__has_due
@@ -1950,12 +1952,12 @@ msgstr "إدخالات دفتر اليومية المجموعة"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment__has_due
 #: model:ir.model.fields,field_description:base_accounting_kit.field_sale_order__has_due
 msgid "Has Due"
-msgstr "مستحق"
+msgstr "له مبلغ مستحق"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__financial_report__view_format__horizontal
 msgid "Horizontal"
-msgstr "عرضي"
+msgstr "أفقي"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_account__id
@@ -2006,7 +2008,7 @@ msgstr "عرضي"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__id
 #: model:ir.model.fields,field_description:base_accounting_kit.field_sale_order__id
 msgid "ID"
-msgstr "المُعرف"
+msgstr "المعرف"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -2020,13 +2022,13 @@ msgstr "الفواتير"
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__message_needaction
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__message_unread
 msgid "If checked, new messages require your attention."
-msgstr "إذا تم تحديدها ، فإن الرسائل الجديدة تتطلب انتباهك."
+msgstr "إذا تم التحديد، تتطلب الرسائل الجديدة انتباهك."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__message_has_error
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
-msgstr "إذا تم تحديده ، فإن بعض الرسائل بها خطأ في التسليم."
+msgstr "إذا تم التحديد، فإن بعض الرسائل بها خطأ في التسليم."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_bank_book_report__initial_balance
@@ -2035,13 +2037,13 @@ msgstr "إذا تم تحديده ، فإن بعض الرسائل بها خطأ �
 msgid ""
 "If you selected date, this field allow you to add a row to display the "
 "amount of debit/credit/balance that precedes the filter you've set."
-msgstr ""
+msgstr "إذا قمت بتحديد تاريخ، يتيح لك هذا الحقل إضافة صف لعرض مبلغ المدين/الدائن/الرصيد الذي يسبق الفلتر الذي قمت بتعيينه."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__res_partner__followup_status__in_need_of_action
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_search_view
 msgid "In need of action"
-msgstr "بحاجة للعمل"
+msgstr "بحاجة إلى إجراء"
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/models/account_payment.py:0
@@ -2050,19 +2052,19 @@ msgstr "بحاجة للعمل"
 msgid ""
 "In order to print multiple checks at once, they must belong to the same bank"
 " journal."
-msgstr ""
+msgstr "من أجل طباعة عدة شيكات مرة واحدة، يجب أن تنتمي إلى نفس اليومية البنكية."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__initial_balance
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__initial_balance
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger__initial_balance
 msgid "Include Initial Balances"
-msgstr "قم بتضمين الأرصدة الأولية"
+msgstr "تضمين الأرصدة الافتتاحية"
 
 #. module: base_accounting_kit
 #: model:account.financial.report,name:base_accounting_kit.account_financial_report_income0
 msgid "Income"
-msgstr "الإيرادات"
+msgstr "الدخل"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -2070,7 +2072,7 @@ msgstr "الإيرادات"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/template.xml:0
 #, python-format
 msgid "Income/Expense"
-msgstr "الدخل / المصاريف"
+msgstr "الدخل/المصروف"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__prorata
@@ -2078,19 +2080,19 @@ msgid ""
 "Indicates that the first depreciation entry for this asset have to be done "
 "from the purchase date instead of the first January / Start date of fiscal "
 "year"
-msgstr ""
+msgstr "يشير إلى أنه يجب عمل قيد الإهلاك الأول لهذا الأصل من تاريخ الشراء بدلاً من أول يناير / تاريخ بداية السنة المالية"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__prorata
 msgid ""
 "Indicates that the first depreciation entry for this asset have to be done "
 "from the purchase date instead of the first of January"
-msgstr ""
+msgstr "يشير إلى أنه يجب عمل قيد الإهلاك الأول لهذا الأصل من تاريخ الشراء بدلاً من أول يناير"
 
 #. module: base_accounting_kit
 #: model:account.financial.report,name:base_accounting_kit.account_financial_report_investing_activity0
 msgid "Investing Activities"
-msgstr "نشاطات إستثمارية"
+msgstr "أنشطة استثمارية"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -2118,7 +2120,7 @@ msgstr "تفاصيل الفاتورة"
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_is_follower
 msgid "Is Follower"
-msgstr "أتباع"
+msgstr "هل هو متابع"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement_line__is_warning
@@ -2126,14 +2128,14 @@ msgstr "أتباع"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment__is_warning
 #: model:ir.model.fields,field_description:base_accounting_kit.field_sale_order__is_warning
 msgid "Is Warning"
-msgstr "هو تحذير"
+msgstr "تحذير"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_report_partner_ledger__amount_currency
 msgid ""
 "It adds the currency column on report if the currency differs from the "
 "company currency."
-msgstr ""
+msgstr "يضيف عمود العملة في التقرير إذا كانت العملة مختلفة عن عملة الشركة."
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/models/payment_matching.py:0
@@ -2141,12 +2143,12 @@ msgstr ""
 #, python-format
 msgid ""
 "It is mandatory to specify an account and a journal to create a write-off."
-msgstr ""
+msgstr "من الضروري تحديد حساب ويومية لإنشاء إعدام."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__salvage_value
 msgid "It is the amount you plan to have that you cannot depreciate."
-msgstr "إنه المبلغ الذي تخطط للحصول عليه ولا يمكنك استهلاكه."
+msgstr "هو المبلغ الذي تخطط للحصول عليه ولا يمكنك إهلاكه."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__style_overwrite__5
@@ -2157,7 +2159,7 @@ msgstr "نص مائل (أصغر)"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.payment_matching_view
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
 msgid "Items"
-msgstr "العناصر"
+msgstr "البنود"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
@@ -2166,7 +2168,7 @@ msgstr "العناصر"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
 msgid "JRNL"
-msgstr ""
+msgstr "اليومية"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -2180,14 +2182,14 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
 #, python-format
 msgid "Journal"
-msgstr "دفتر اليومية"
+msgstr "اليومية"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_bank_book_report__sortby__sort_journal_partner
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_cash_book_report__sortby__sort_journal_partner
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_report_general_ledger__sortby__sort_journal_partner
 msgid "Journal & Partner"
-msgstr ""
+msgstr "اليومية والشريك"
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/models/account_asset.py:0
@@ -2195,7 +2197,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
 #, python-format
 msgid "Journal Entries"
-msgstr "إدخالات دفتر اليومية"
+msgstr "قيود اليومية"
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_account_move
@@ -2211,14 +2213,14 @@ msgstr "رقم قيد اليومية"
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_account_move_line
 msgid "Journal Item"
-msgstr "عنصر اليومية"
+msgstr "بند اليومية"
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/models/payment_matching.py:0
 #: code:addons/language_translation/base_accounting_kit/models/payment_matching.py:0
 #, python-format
 msgid "Journal Items"
-msgstr "عناصر دفتر اليومية"
+msgstr "بنود اليومية"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -2226,19 +2228,19 @@ msgstr "عناصر دفتر اليومية"
 #: code:addons/language_translation/base_accounting_kit/static/src/js/payment_matching.js:0
 #, python-format
 msgid "Journal Items to Reconcile"
-msgstr "عناصر دفتر اليومية المطلوب التوفيق بينها"
+msgstr "بنود اليومية المراد تسويتها"
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_journal_audit
 msgid "Journal Report"
-msgstr ""
+msgstr "تقرير اليومية"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
 msgid "Journal and Partner"
-msgstr "مجلة وشريك"
+msgstr "اليومية والشريك"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__journal_ids
@@ -2255,14 +2257,14 @@ msgstr "مجلة وشريك"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__journal_ids
 #: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__journal_ids
 msgid "Journals"
-msgstr "دفاتر اليومية"
+msgstr "اليوميات"
 
 #. module: base_accounting_kit
 #: model:ir.actions.act_window,name:base_accounting_kit.action_account_print_journal_menu
 #: model:ir.actions.report,name:base_accounting_kit.action_report_journal
 #: model:ir.ui.menu,name:base_accounting_kit.menu_print_journal
 msgid "Journals Audit"
-msgstr "تدقيق المجلات"
+msgstr "مراجعة اليوميات"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -2275,7 +2277,7 @@ msgstr "تدقيق المجلات"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
 #, python-format
 msgid "Label"
-msgstr "ضع الكلمة المناسبة"
+msgstr "التسمية"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_account____last_update
@@ -2413,19 +2415,19 @@ msgstr "العام الماضي"
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__level
 msgid "Level"
-msgstr "مستوى"
+msgstr "المستوى"
 
 #. module: base_accounting_kit
 #: model:account.financial.report,name:base_accounting_kit.account_financial_report_liability0
 #: model:account.financial.report,name:base_accounting_kit.account_financial_report_liabilitysum0
 msgid "Liability"
-msgstr "مسؤولية"
+msgstr "مطلوبات"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_asset__method__linear
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_category__method__linear
 msgid "Linear"
-msgstr "خطي"
+msgstr "قسط ثابت"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__move_check
@@ -2446,7 +2448,7 @@ msgstr "تحميل المزيد"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Load more... ("
-msgstr ""
+msgstr "تحميل المزيد... ("
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_lock_date__fiscalyear_lock_date
@@ -2481,7 +2483,7 @@ msgstr "المرفق الرئيسي"
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__style_overwrite__1
 msgid "Main Title 1 (bold, underlined)"
-msgstr ""
+msgstr "عنوان رئيسي 1 (غامق، مسطر)"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -2489,7 +2491,7 @@ msgstr ""
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Manual Operations"
-msgstr "العمليات اليدوية"
+msgstr "عمليات يدوية"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -2497,7 +2499,7 @@ msgstr "العمليات اليدوية"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Match with entries that are not from receivable/payable accounts"
-msgstr "تطابق مع الإدخالات التي ليست من حسابات القبض / المدفوعات"
+msgstr "مطابقة مع قيود ليست من حسابات القبض/الدائن"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_has_error
@@ -2555,7 +2557,7 @@ msgstr "الإيرادات الشهرية المتكررة"
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_recurring_payments__recurring_period__months
 msgid "Months"
-msgstr "الشهور"
+msgstr "أشهر"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
@@ -2564,7 +2566,7 @@ msgstr "الشهور"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
 msgid "Move"
-msgstr "نقل"
+msgstr "الحركة"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_entries_line__template_name
@@ -2572,12 +2574,12 @@ msgstr "نقل"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
 msgid "Name"
-msgstr "اسم"
+msgstr "الاسم"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
 msgid "Net"
-msgstr "شبكة"
+msgstr "صافي"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -2618,13 +2620,13 @@ msgstr "الجدول التالي"
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__cash_flow_report__filter_cmp__filter_no
 msgid "No Filters"
-msgstr "لا المرشحات"
+msgstr "بدون مرشحات"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__res_partner__followup_status__no_action_needed
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_search_view
 msgid "No action needed"
-msgstr "لا رد فعل مطلوب"
+msgstr "لا حاجة لإجراء"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__display_detail__no_detail
@@ -2634,14 +2636,14 @@ msgstr "بدون تفاصيل"
 #. module: base_accounting_kit
 #: model_terms:ir.actions.act_window,help:base_accounting_kit.action_view_list_customer_statements
 msgid "No follow-up to send!"
-msgstr "لا يوجد متابعة لإرسال!"
+msgstr "لا توجد متابعة لإرسالها!"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_lock_date__fiscalyear_lock_date
 msgid ""
 "No users, including Advisers, can edit accounts prior to and inclusive of "
 "this date. Use it for fiscal year locking for example."
-msgstr ""
+msgstr "لا يمكن لأي مستخدم، بما في ذلك المستشارين، تحرير الحسابات قبل هذا التاريخ وشاملاً إياه. استخدمه لقفل السنة المالية على سبيل المثال."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__style_overwrite__4
@@ -2660,7 +2662,7 @@ msgstr "غير مؤرشف"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__note
 #, python-format
 msgid "Note"
-msgstr "ملحوظة"
+msgstr "ملاحظة"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -2668,7 +2670,7 @@ msgstr "ملحوظة"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Nothing to do!"
-msgstr "لا شيء لأفعله!"
+msgstr "لا شيء للقيام به!"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_needaction_counter
@@ -2680,19 +2682,19 @@ msgstr "عدد الإجراءات"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__method_number
 #: model:ir.model.fields,field_description:base_accounting_kit.field_asset_modify__method_number
 msgid "Number of Depreciations"
-msgstr "عدد الاهلاك"
+msgstr "عدد مرات الإهلاك"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_asset__method_time__number
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_category__method_time__number
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
 msgid "Number of Entries"
-msgstr "عدد الادخالات"
+msgstr "عدد القيود"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__method_period
 msgid "Number of Months in a Period"
-msgstr "عدد الأشهر في فترة"
+msgstr "عدد الأشهر في الفترة"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_has_error_counter
@@ -2702,12 +2704,12 @@ msgstr "عدد الأخطاء"
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr "عدد الرسائل التي تتطلب اتخاذ إجراء"
+msgstr "عدد الرسائل التي تتطلب إجراءً"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "عدد الرسائل التي بها خطأفي  التسليم"
+msgstr "عدد الرسائل التي بها خطأ في التسليم"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__message_unread_counter
@@ -2717,7 +2719,7 @@ msgstr "عدد الرسائل غير المقروءة"
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
 msgid "One Entry Every"
-msgstr "دخول واحد كل"
+msgstr "قيد واحد كل"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_lock_date__period_lock_date
@@ -2725,7 +2727,7 @@ msgid ""
 "Only users with the 'Adviser' role can edit accounts prior to and inclusive "
 "of this date. Use it for period locking inside an open fiscal year, for "
 "example."
-msgstr ""
+msgstr "يمكن للمستخدمين الذين لديهم دور 'مستشار' فقط تحرير الحسابات قبل هذا التاريخ وشاملاً إياه. استخدمه لقفل الفترة داخل سنة مالية مفتوحة، على سبيل المثال."
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -2735,28 +2737,28 @@ msgstr ""
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Open balance"
-msgstr "حساب مفتوح"
+msgstr "الرصيد الافتتاحي"
 
 #. module: base_accounting_kit
 #: model:account.financial.report,name:base_accounting_kit.account_financial_report_operation0
 msgid "Operations"
-msgstr "عمليات"
+msgstr "العمليات"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_recurring_payments_form_view
 msgid "Other Info"
-msgstr "معلومات اخرى"
+msgstr "معلومات أخرى"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_search_view
 msgid "Overdue Invoices"
-msgstr "الفواتير المتأخرة"
+msgstr "فواتير متأخرة"
 
 #. module: base_accounting_kit
 #: model:account.payment.method,name:base_accounting_kit.account_payment_method_pdc_in
 #: model:account.payment.method,name:base_accounting_kit.account_payment_method_pdc_out
 msgid "PDC"
-msgstr "PDC"
+msgstr "شيك مؤجل"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -2770,17 +2772,17 @@ msgstr "PDC"
 #: code:addons/language_translation/base_accounting_kit/static/src/js/account_dashboard.js:0
 #, python-format
 msgid "Paid"
-msgstr "دفع"
+msgstr "مدفوع"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__parent_id
 msgid "Parent"
-msgstr "الأبوين"
+msgstr "الأصل"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_financial_report_search
 msgid "Parent Report"
-msgstr "تقرير الوالدين"
+msgstr "تقرير الأصل"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -2804,7 +2806,7 @@ msgstr "تقرير الوالدين"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
 #, python-format
 msgid "Partner"
-msgstr "شريك"
+msgstr "الشريك"
 
 #. module: base_accounting_kit
 #: model:ir.actions.act_window,name:base_accounting_kit.action_partner_leadger
@@ -2812,12 +2814,12 @@ msgstr "شريك"
 #: model:ir.ui.menu,name:base_accounting_kit.menu_partner_ledger
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
 msgid "Partner Ledger"
-msgstr "شريك ليدجر"
+msgstr "دفتر أستاذ الشركاء"
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_partnerledger
 msgid "Partner Ledger Report"
-msgstr "تقرير دفتر الأستاذ الشريك"
+msgstr "تقرير دفتر أستاذ الشركاء"
 
 #. module: base_accounting_kit
 #: model:ir.ui.menu,name:base_accounting_kit.account_reports_partner
@@ -2829,22 +2831,22 @@ msgstr "تقارير الشركاء"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report__result_selection
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__result_selection
 msgid "Partner's"
-msgstr "شريك"
+msgstr "الشريك"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
 msgid "Partners"
-msgstr "شركاء"
+msgstr "الشركاء"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_recurring_payments__pay_time__pay_now
 msgid "Pay Directly"
-msgstr "ادفع مباشرة"
+msgstr "الدفع مباشرة"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_recurring_payments__pay_time__pay_later
 msgid "Pay Later"
-msgstr "ادفع لاحقا"
+msgstr "الدفع لاحقًا"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__pay_time
@@ -2857,7 +2859,7 @@ msgstr "وقت الدفع"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Pay your"
-msgstr "دفع الخاص بك"
+msgstr "ادفع"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_aged_trial_balance__result_selection__supplier
@@ -2865,17 +2867,17 @@ msgstr "دفع الخاص بك"
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_report_partner_ledger__result_selection__supplier
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
 msgid "Payable Accounts"
-msgstr "حسابات الدفع"
+msgstr "حسابات الدائن"
 
 #. module: base_accounting_kit
 #: model:ir.actions.act_window,name:base_accounting_kit.action_account_followup_definition_form
 msgid "Payment Follow-ups"
-msgstr "متابعة الدفع"
+msgstr "متابعات الدفع"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.matching_account_payment
 msgid "Payment Matching"
-msgstr "مطابقة الدفع"
+msgstr "مطابقة المدفوعات"
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_account_payment
@@ -2894,14 +2896,14 @@ msgstr "مطابقة المدفوعات"
 msgid ""
 "Payments to print as a checks must have 'Check' or 'PDC' selected as payment"
 " method and not have already been reconciled"
-msgstr ""
+msgstr "المدفوعات المراد طباعتها كشيكات يجب أن يكون طريقة الدفع فيها 'شيك' أو 'شيك مؤجل' وألا تكون قد تمت تسويتها بالفعل"
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/models/account_payment.py:0
 #: code:addons/language_translation/base_accounting_kit/models/account_payment.py:0
 #, python-format
 msgid "Payments without a customer can't be matched"
-msgstr "بدون عميل لا يمكن مطابقة المدفوعات "
+msgstr "لا يمكن مطابقة المدفوعات بدون عميل"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__method_period
@@ -2917,12 +2919,12 @@ msgstr "طول الفترة (أيام)"
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
 msgid "Periodicity"
-msgstr "دورية"
+msgstr "الدورية"
 
 #. module: base_accounting_kit
 #: model:ir.actions.act_window,name:base_accounting_kit.action_asset_depreciation_confirmation_wizard
 msgid "Post Depreciation Lines"
-msgstr "خطوط ما بعد الإهلاك"
+msgstr "ترحيل بنود الإهلاك"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -2934,22 +2936,22 @@ msgstr "خطوط ما بعد الإهلاك"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
 #, python-format
 msgid "Posted"
-msgstr "تم النشر"
+msgstr "مرحّل"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__posted_value
 msgid "Posted Amount"
-msgstr "المبلغ المعلن"
+msgstr "المبلغ المرحّل"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
 msgid "Posted depreciation lines"
-msgstr "تم نشر خطوط الإهلاك"
+msgstr "بنود الإهلاك المرحّلة"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__sign__1
 msgid "Preserve balance sign"
-msgstr "حفظ علامة التوازن"
+msgstr "الحفاظ على إشارة الرصيد"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -2957,7 +2959,7 @@ msgstr "حفظ علامة التوازن"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Presets config"
-msgstr "التكوين المسبق"
+msgstr "تكوين الإعدادات المسبقة"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_aged_balance_view
@@ -2973,16 +2975,14 @@ msgstr "طباعة"
 #: code:addons/language_translation/base_accounting_kit/models/account_payment.py:0
 #, python-format
 msgid "Print Pre-numbered Checks"
-msgstr "طباعة الشيكات المرقمةمسبقًا"
+msgstr "طباعة شيكات مرقمة مسبقًا"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_print_journal__amount_currency
 msgid ""
 "Print Report with the currency column if the currency differs from the "
 "company currency."
-msgstr ""
-"طباعة التقرير مع خانة العملة اذا كانت العملة تختلف عن العملة الافتراضية "
-"للمؤسسة."
+msgstr "طباعة التقرير مع عمود العملة إذا كانت العملة مختلفة عن عملة الشركة."
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_product_template
@@ -2992,20 +2992,20 @@ msgstr "قالب المنتج"
 #. module: base_accounting_kit
 #: model:account.financial.report,name:base_accounting_kit.account_financial_report_profitloss_toreport0
 msgid "Profit (Loss) to report"
-msgstr "الربح (الخسارة) للتقرير"
+msgstr "الربح (الخسارة) المراد الإبلاغ عنه"
 
 #. module: base_accounting_kit
 #: model:account.financial.report,name:base_accounting_kit.account_financial_report_profitandloss0
 #: model:ir.actions.act_window,name:base_accounting_kit.action_profit_and_loss_report
 #: model:ir.ui.menu,name:base_accounting_kit.account_financial_reports_profit_loss
 msgid "Profit and Loss"
-msgstr "الربح والخسارة"
+msgstr "قائمة الدخل"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__prorata
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__prorata
 msgid "Prorata Temporis"
-msgstr ""
+msgstr "توزيع زمني نسبي"
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/models/account_asset.py:0
@@ -3014,7 +3014,7 @@ msgstr ""
 msgid ""
 "Prorata temporis can be applied only for time method \"number of "
 "depreciations\"."
-msgstr ""
+msgstr "لا يمكن تطبيق التوزيع الزمني النسبي إلا على طريقة الوقت \"عدد مرات الإهلاك\"."
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_search
@@ -3029,7 +3029,7 @@ msgstr "شهر الشراء"
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_category__type__purchase
 msgid "Purchase: Asset"
-msgstr "الشراء: الأصول"
+msgstr "شراء: أصل"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_asset_modify__name
@@ -3042,7 +3042,7 @@ msgstr "السبب"
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_report_partner_ledger__result_selection__customer
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
 msgid "Receivable Accounts"
-msgstr "حسابات القبض"
+msgstr "حسابات المدين"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_aged_trial_balance__result_selection__customer_supplier
@@ -3050,7 +3050,7 @@ msgstr "حسابات القبض"
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_report_partner_ledger__result_selection__customer_supplier
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
 msgid "Receivable and Payable Accounts"
-msgstr "حسابات القبض والذممالدائنة"
+msgstr "حسابات المدين والدائن"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
@@ -3060,7 +3060,7 @@ msgstr "حساب الاعتراف"
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
 msgid "Recognition Income Account"
-msgstr "حساب الدخل الاعتراف"
+msgstr "حساب دخل الاعتراف"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -3071,22 +3071,22 @@ msgstr "حساب الدخل الاعتراف"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.payment_matching_view
 #, python-format
 msgid "Reconcile"
-msgstr "التصالح"
+msgstr "تسوية"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__reconciled
 msgid "Reconciled Entries"
-msgstr "إدخالات تمت تسويتها"
+msgstr "القيود المسوّاة"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__recurring_interval
 msgid "Recurring Interval"
-msgstr "الفاصل الزمني المتكرر"
+msgstr "الفاصل المتكرر"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__recurring_lines
 msgid "Recurring Lines"
-msgstr "خطوط متكررة"
+msgstr "بنود متكررة"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__recurring_period
@@ -3098,19 +3098,19 @@ msgstr "فترة متكررة"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_move__recurring_ref
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment__recurring_ref
 msgid "Recurring Ref"
-msgstr "المرجع المتكرر"
+msgstr "مرجع متكرر"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_recurring_payments_form_view
 msgid "Recurring Template"
-msgstr "نموذج متكرر"
+msgstr "قالب متكرر"
 
 #. module: base_accounting_kit
 #: model:ir.actions.act_window,name:base_accounting_kit.action_account_recurring_payments_view
 #: model:ir.ui.menu,name:base_accounting_kit.account_recurring_payments_child1
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_recurring_payments_tree_view
 msgid "Recurring Templates"
-msgstr "القوالب المتكررة"
+msgstr "قوالب متكررة"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -3123,17 +3123,17 @@ msgstr "القوالب المتكررة"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
 #, python-format
 msgid "Ref"
-msgstr ""
+msgstr "المرجع"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__code
 msgid "Reference"
-msgstr "مرجع"
+msgstr "المرجع"
 
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_account_payment_register
 msgid "Register Payment"
-msgstr "تسجيل دفعة"
+msgstr "تسجيل الدفع"
 
 #. module: base_accounting_kit
 #: model:followup.line,name:base_accounting_kit.followup_line_id
@@ -3143,12 +3143,12 @@ msgstr "تذكير"
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_financial_report_form
 msgid "Report"
-msgstr "نقل"
+msgstr "تقرير"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__name
 msgid "Report Name"
-msgstr "تقرير اسم"
+msgstr "اسم التقرير"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_aged_balance_view
@@ -3173,7 +3173,7 @@ msgstr "قيمة التقرير"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
 #, python-format
 msgid "Residual"
-msgstr "المتبقية"
+msgstr "المتبقي"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__value_residual
@@ -3183,7 +3183,7 @@ msgstr "القيمة المتبقية"
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__sign__-1
 msgid "Reverse balance sign"
-msgstr "علامة التوازن العكسي"
+msgstr "عكس إشارة الرصيد"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_asset__state__open
@@ -3191,22 +3191,22 @@ msgstr "علامة التوازن العكسي"
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__asset_asset_report__state__open
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
 msgid "Running"
-msgstr "ادارة"
+msgstr "قيد التشغيل"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_has_sms_error
 msgid "SMS Delivery error"
-msgstr "خطأ في تسليم الرسائل القصيرة "
+msgstr "خطأ في تسليم الرسائل القصيرة"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
 msgid "Sale"
-msgstr "تخفيض السعر"
+msgstr "مبيعات"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_category__type__sale
 msgid "Sale: Revenue Recognition"
-msgstr "البيع: الاعتراف بالإيرادات"
+msgstr "بيع: الاعتراف بالإيرادات"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_search
@@ -3221,7 +3221,7 @@ msgstr "أمر البيع"
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__salvage_value
 msgid "Salvage Value"
-msgstr "قيمة مستردة"
+msgstr "القيمة التخريدية"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -3234,12 +3234,12 @@ msgstr "حفظ وجديد"
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_search
 msgid "Search Asset Category"
-msgstr "فئة أصل البحث"
+msgstr "البحث عن فئة أصل"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_followup_filter
 msgid "Search Follow-up"
-msgstr "متابعة البحث"
+msgstr "البحث عن متابعة"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -3247,7 +3247,7 @@ msgstr "متابعة البحث"
 #: code:addons/language_translation/base_accounting_kit/static/src/js/payment_render.js:0
 #, python-format
 msgid "Select Partner"
-msgstr "حدد الشريك"
+msgstr "اختر الشريك"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -3255,7 +3255,7 @@ msgstr "حدد الشريك"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Select a partner or choose a counterpart"
-msgstr "حدد شريكًا أو اختر نظيرًا"
+msgstr "اختر شريكًا أو اختر حسابًا مقابلًا"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
@@ -3267,12 +3267,12 @@ msgstr "بيع أو التخلص"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__sequence
 #: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line__sequence
 msgid "Sequence"
-msgstr "تسلسل"
+msgstr "التسلسل"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
 msgid "Set to Draft"
-msgstr "تعيين إلى مسودة"
+msgstr "تعيين كمسودة"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -3285,7 +3285,7 @@ msgstr "الإعدادات"
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__sign
 msgid "Sign on Reports"
-msgstr "تسجيل الدخول التقارير"
+msgstr "إشارة التقارير"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -3303,7 +3303,7 @@ msgstr "تسجيل الدخول التقارير"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/template.xml:0
 #, python-format
 msgid "Skill Level: 50%"
-msgstr "مستوى المهارة: 50٪"
+msgstr "مستوى المهارة: 50%"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -3311,7 +3311,7 @@ msgstr "مستوى المهارة: 50٪"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Skip"
-msgstr "تخطى"
+msgstr "تخطي"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__style_overwrite__6
@@ -3358,12 +3358,12 @@ msgstr "تاريخ البدء"
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__method_period
 msgid "State here the time between 2 depreciations, in months"
-msgstr "اذكر هنا الوقت بين عمليتي إهلاك بالأشهر"
+msgstr "حدد هنا الوقت بين إهلاكين بالأشهر"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__parent_state
 msgid "State of Asset"
-msgstr "حالة الأصول"
+msgstr "حالة الأصل"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__state
@@ -3378,7 +3378,7 @@ msgstr "الحالة"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/template.xml:0
 #, python-format
 msgid "Supplier Invoice"
-msgstr "فاتورة المورد"
+msgstr "فاتورة مورد"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -3403,17 +3403,17 @@ msgstr "أفضل 10 عملاء"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__target_move
 #: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__target_move
 msgid "Target Moves"
-msgstr "تحركات الهدف"
+msgstr "الحركات المستهدفة"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
 msgid "Tax"
-msgstr "ضريبة"
+msgstr "الضريبة"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
 msgid "Tax Amount"
-msgstr "قيمة الضريبة"
+msgstr "مبلغ الضريبة"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
@@ -3435,12 +3435,12 @@ msgstr "الضريبة مشمولة في السعر"
 #: model:ir.ui.menu,name:base_accounting_kit.menu_tax_report
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
 msgid "Tax Report"
-msgstr "تقرير الضرائب"
+msgstr "تقرير الضريبة"
 
 #. module: base_accounting_kit
 #: model:ir.actions.act_window,name:base_accounting_kit.action_account_tax_report
 msgid "Tax Reports"
-msgstr "تقارير الضرائب"
+msgstr "تقارير الضريبة"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -3464,12 +3464,12 @@ msgstr "هذا في المتوسط"
 #: code:addons/language_translation/base_accounting_kit/static/src/js/payment_model.js:0
 #, python-format
 msgid "The amount %s is not a valid partial amount"
-msgstr "المبلغ٪ s ليس مبلغًا جزئيًا صالحًا"
+msgstr "المبلغ %s ليس مبلغًا جزئيًا صالحًا"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__method_period
 msgid "The amount of time between two depreciations, in months"
-msgstr "مقدار الوقت بين عمليتي إهلاك بالأشهر"
+msgstr "مقدار الوقت بين إهلاكين بالأشهر"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_followup_line__delay
@@ -3477,13 +3477,13 @@ msgid ""
 "The number of days after the due date of the invoice to wait before sending "
 "the reminder.  Could be negative if you want to send a polite alert "
 "beforehand."
-msgstr ""
+msgstr "عدد الأيام بعد تاريخ استحقاق الفاتورة للانتظار قبل إرسال التذكير. يمكن أن يكون سالبًا إذا كنت تريد إرسال تنبيه مهذب مسبقًا."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__method_number
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__method_number
 msgid "The number of depreciations needed to depreciate your asset"
-msgstr "عدد الإهلاكات اللازمة لخفض قيمة الأصول الخاصة بك"
+msgstr "عدد مرات الإهلاك اللازمة لإهلاك أصل"
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/models/account_move.py:0
@@ -3492,7 +3492,7 @@ msgstr "عدد الإهلاكات اللازمة لخفض قيمة الأصول 
 msgid ""
 "The number of depreciations or the period length of your asset category "
 "cannot be null."
-msgstr ""
+msgstr "لا يمكن أن يكون عدد مرات الإهلاك أو طول فترة فئة الأصل فارغًا."
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -3500,7 +3500,7 @@ msgstr ""
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "There is nothing to reconcile."
-msgstr "لا يوجد شيء للتوفيق بينه"
+msgstr "لا يوجد شيء لتسويته."
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_move_form_inherited
@@ -3536,13 +3536,13 @@ msgstr "هذا الشهر"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/template.xml:0
 #, python-format
 msgid "This Year"
-msgstr "هذه السنة"
+msgstr "هذا العام"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_move_form_inherited
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.header_view
 msgid "This customer's <strong>warning limit</strong> has been crossed."
-msgstr "تم تجاوز <strong> حد التحذير </ strong> لهذا العميل."
+msgstr "تم تجاوز <strong>حد التحذير</strong> لهذا العميل."
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/models/account_asset.py:0
@@ -3551,14 +3551,14 @@ msgstr "تم تجاوز <strong> حد التحذير </ strong> لهذا الع�
 msgid ""
 "This depreciation is already linked to a journal entry! Please post or "
 "delete it."
-msgstr ""
+msgstr "هذا الإهلاك مرتبط بالفعل بقيد يومية! الرجاء ترحيله أو حذفه."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_cash_flow_report__label_filter
 msgid ""
 "This label will be displayed on report to show the balance computed for the "
 "given comparison filter."
-msgstr ""
+msgstr "سيتم عرض هذه التسمية في التقرير لإظهار الرصيد المحسوب لفلتر المقارنة المحدد."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_cash_flow_report__debit_credit
@@ -3567,7 +3567,7 @@ msgid ""
 "This option allows you to get more details about the way your balances are "
 "computed. Because it is space consuming, we do not allow to use it while "
 "doing a comparison."
-msgstr ""
+msgstr "يتيح لك هذا الخيار الحصول على مزيد من التفاصيل حول طريقة حساب أرصدتك. نظرًا لأنه يستهلك مساحة، لا نسمح باستخدامه أثناء إجراء المقارنة."
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -3577,7 +3577,7 @@ msgstr ""
 msgid ""
 "This page displays all the bank transactions that are to be reconciled and "
 "provides with a neat interface to do so."
-msgstr ""
+msgstr "تعرض هذه الصفحة جميع المعاملات البنكية التي سيتم تسويتها وتوفر واجهة أنيقة للقيام بذلك."
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -3585,14 +3585,14 @@ msgstr ""
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "This payment is registered but not reconciled."
-msgstr "تم تسجيل هذه الدفعة ولكن لم يتم تسويتها."
+msgstr "هذا الدفع مسجل ولكن لم تتم تسويته."
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_depreciation_confirmation_wizard
 msgid ""
 "This wizard will post installment/depreciation lines for the selected month.<br/>\n"
 "                        This will generate journal entries for all related installment lines on this period of asset/revenue recognition as well."
-msgstr ""
+msgstr "سيقوم هذا المعالج بترحيل بنود التقسيط/الإهلاك للشهر المحدد.<br/> سيؤدي هذا أيضًا إلى إنشاء قيود يومية لجميع بنود التقسيط ذات الصلة في فترة الاعتراف بالأصول/الإيرادات."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__method_time
@@ -3604,17 +3604,17 @@ msgstr "طريقة الوقت"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
 msgid "Time Method Based On"
-msgstr "أسلوب الوقت على أساس"
+msgstr "طريقة الوقت بناءً على"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__style_overwrite__2
 msgid "Title 2 (bold)"
-msgstr ""
+msgstr "عنوان 2 (غامق)"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__style_overwrite__3
 msgid "Title 3 (bold, smaller)"
-msgstr ""
+msgstr "عنوان 3 (غامق، أصغر)"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -3622,7 +3622,7 @@ msgstr ""
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "To Check"
-msgstr "للتأكد"
+msgstr "للتحقق"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_followup_followup_form
@@ -3635,7 +3635,7 @@ msgid ""
 "                        number of days. If there are other overdue invoices for the\n"
 "                        same customer, the actions of the most\n"
 "                        overdue invoice will be executed."
-msgstr ""
+msgstr "لتذكير العملاء بدفع فواتيرهم، يمكنك تحديد إجراءات مختلفة حسب مدى تأخر العميل. يتم تجميع هذه الإجراءات في مستويات متابعة يتم تشغيلها عندما يتجاوز تاريخ استحقاق الفاتورة عددًا معينًا من الأيام. إذا كانت هناك فواتير أخرى متأخرة لنفس العميل، فسيتم تنفيذ إجراءات الفاتورة الأكثر تأخرًا."
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -3643,19 +3643,19 @@ msgstr ""
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "To speed up reconciliation, define"
-msgstr "لتسريع المصالحة ، حدد"
+msgstr "لتسريع التسوية، حدد"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_tree_view
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
 msgid "Total"
-msgstr "مجموع"
+msgstr "الإجمالي"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__total_due
 #: model:ir.model.fields,field_description:base_accounting_kit.field_res_users__total_due
 msgid "Total Due"
-msgstr "الاجمالي المستحق"
+msgstr "إجمالي المستحق"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -3667,7 +3667,7 @@ msgstr "الاجمالي المستحق"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/template.xml:0
 #, python-format
 msgid "Total Expenses"
-msgstr "لمصروفات الكلية"
+msgstr "إجمالي المصروفات"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -3695,7 +3695,7 @@ msgstr "إجمالي المتأخرات"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_res_users__due_amount
 #: model:ir.model.fields,field_description:base_accounting_kit.field_sale_order__due_amount
 msgid "Total Sale"
-msgstr "إجمالي البيع"
+msgstr "إجمالي المبيعات"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -3703,7 +3703,7 @@ msgstr "إجمالي البيع"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Transaction"
-msgstr "عملية تجارية"
+msgstr "المعاملة"
 
 #. module: base_accounting_kit
 #: model:ir.actions.act_window,name:base_accounting_kit.action_account_balance_menu
@@ -3724,7 +3724,7 @@ msgstr "تقرير ميزان المراجعة"
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__type
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_search
 msgid "Type"
-msgstr "اكتب"
+msgstr "النوع"
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/report/report_aged_partner.py:0
@@ -3740,12 +3740,12 @@ msgstr "شريك غير معروف"
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_recurring_payments__journal_state__draft
 #, python-format
 msgid "Unposted"
-msgstr "غير منشور"
+msgstr "غير مرحّل"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__unposted_value
 msgid "Unposted Amount"
-msgstr "المبلغ غير المنشور"
+msgstr "المبلغ غير المرحّل"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_unread
@@ -3765,7 +3765,7 @@ msgstr "عداد الرسائل غير المقروءة"
 #: code:addons/language_translation/base_accounting_kit/static/src/js/account_dashboard.js:0
 #, python-format
 msgid "Unreconciled"
-msgstr "لم تتم التوفيق بينها"
+msgstr "غير مسوى"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -3773,7 +3773,7 @@ msgstr "لم تتم التوفيق بينها"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/template.xml:0
 #, python-format
 msgid "Unreconciled items"
-msgstr "البنود التي لم تتم تسويتها"
+msgstr "بنود غير مسواة"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_update_lock_date_form_view
@@ -3796,7 +3796,7 @@ msgstr "تحقق"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_purchase_tree
 msgid "Vendor"
-msgstr "بائع"
+msgstr "مورد"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -3814,7 +3814,7 @@ msgstr "عمودي"
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__type__sum
 msgid "View"
-msgstr "رأي"
+msgstr "عرض"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__warning_stage
@@ -3827,7 +3827,7 @@ msgstr "مبلغ التحذير"
 #: code:addons/language_translation/base_accounting_kit/models/credit_limit.py:0
 #, python-format
 msgid "Warning amount should be less than Blocking amount"
-msgstr "يجب أن تكون كمية التحذير أقل من مبلغ الحظر"
+msgstr "يجب أن يكون مبلغ التحذير أقل من مبلغ المنع"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__website_message_ids
@@ -3837,7 +3837,7 @@ msgstr "رسائل الموقع"
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__website_message_ids
 msgid "Website communication history"
-msgstr "سجل اتصال الموقع"
+msgstr "تاريخ اتصالات الموقع"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_recurring_payments__recurring_period__weeks
@@ -3851,7 +3851,7 @@ msgid ""
 "When an asset is created, the status is 'Draft'.\n"
 "If the asset is confirmed, the status goes in 'Running' and the depreciation lines can be posted in the accounting.\n"
 "You can manually close an asset when the depreciation is over. If the last line of depreciation is posted, the asset automatically goes in that status."
-msgstr ""
+msgstr "عند إنشاء أصل، تكون الحالة 'مسودة'.\nإذا تم تأكيد الأصل، تتحول الحالة إلى 'قيد التشغيل' ويمكن ترحيل بنود الإهلاك في المحاسبة.\nيمكنك إغلاق الأصل يدويًا عند انتهاء الإهلاك. إذا تم ترحيل آخر بند إهلاك، ينتقل الأصل تلقائيًا إلى تلك الحالة."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal__amount_currency
@@ -3866,7 +3866,7 @@ msgstr "مع العملة"
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_common_account_report__display_account__not_zero
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_report_general_ledger__display_account__not_zero
 msgid "With balance is not equal to 0"
-msgstr "مع رصيد لا يساوي 0"
+msgstr "برصيد لا يساوي 0"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
@@ -3874,7 +3874,7 @@ msgstr "مع رصيد لا يساوي 0"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
 msgid "With balance not equal to zero"
-msgstr "مع رصيد لا يساوي الصفر"
+msgstr "برصيد لا يساوي الصفر"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_balance_report__display_account__movement
@@ -3887,12 +3887,12 @@ msgstr "مع رصيد لا يساوي الصفر"
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
 msgid "With movements"
-msgstr "مع الحركات"
+msgstr "مع حركات"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__res_partner__followup_status__with_overdue_invoices
 msgid "With overdue invoices"
-msgstr "مع الفواتير المتأخرة"
+msgstr "مع فواتير متأخرة"
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/models/payment_matching.py:0
@@ -3901,7 +3901,7 @@ msgstr "مع الفواتير المتأخرة"
 #: code:addons/language_translation/base_accounting_kit/models/payment_matching.py:0
 #, python-format
 msgid "Write-Off"
-msgstr "لا تصلح"
+msgstr "إعدام"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -3909,12 +3909,12 @@ msgstr "لا تصلح"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "Writeoff Date"
-msgstr "تاريخ الشطب"
+msgstr "تاريخ الإعدام"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__name
 msgid "Year"
-msgstr "عام"
+msgstr "سنة"
 
 #. module: base_accounting_kit
 #: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_recurring_payments__recurring_period__years
@@ -3926,7 +3926,7 @@ msgstr "سنوات"
 #: code:addons/language_translation/base_accounting_kit/wizard/account_lock_date.py:0
 #, python-format
 msgid "You are not allowed to execute this action."
-msgstr "لا يسمح لك بتنفيذ هذا الإجراء."
+msgstr "غير مسموح لك بتنفيذ هذا الإجراء."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,help:base_accounting_kit.field_account_financial_report__style_overwrite
@@ -3934,35 +3934,35 @@ msgid ""
 "You can set up here the format you want this record to be displayed. If you "
 "leave the automatic formatting, it will be computed based on the financial "
 "reports hierarchy (auto-computed field 'level')."
-msgstr ""
+msgstr "يمكنك هنا تعيين التنسيق الذي تريد عرض هذا السجل به. إذا تركت التنسيق التلقائي، فسيتم احتسابه بناءً على تسلسل هرمي للتقارير المالية (حقل 'المستوى' المحسوب تلقائيًا)."
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/models/account_asset.py:0
 #: code:addons/language_translation/base_accounting_kit/models/account_asset.py:0
 #, python-format
 msgid "You cannot delete a document is in %s state."
-msgstr "لا يمكنك حذف مستند في حالة٪ s."
+msgstr "لا يمكنك حذف مستند في حالة %s."
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/models/account_asset.py:0
 #: code:addons/language_translation/base_accounting_kit/models/account_asset.py:0
 #, python-format
 msgid "You cannot delete a document that contains posted entries."
-msgstr "لا يمكنك حذف مستند يحتوي على مدخلات تم ترحيلها."
+msgstr "لا يمكنك حذف مستند يحتوي على قيود مرحّلة."
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/models/account_asset.py:0
 #: code:addons/language_translation/base_accounting_kit/models/account_asset.py:0
 #, python-format
 msgid "You cannot delete posted depreciation lines."
-msgstr "لا يمكنك حذف بنود الإهلاك التي تم ترحيلها."
+msgstr "لا يمكنك حذف بنود إهلاك مرحّلة."
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/models/account_asset.py:0
 #: code:addons/language_translation/base_accounting_kit/models/account_asset.py:0
 #, python-format
 msgid "You cannot delete posted installment lines."
-msgstr "لا يمكنك حذف سطور الأقساط المنشورة."
+msgstr "لا يمكنك حذف بنود تقسيط مرحّلة."
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/wizard/account_bank_book_wizard.py:0
@@ -3971,14 +3971,14 @@ msgstr "لا يمكنك حذف سطور الأقساط المنشورة."
 #: code:addons/language_translation/base_accounting_kit/wizard/account_cash_book_wizard.py:0
 #, python-format
 msgid "You must choose a Start Date"
-msgstr "يجب عليك اختيار تاريخ البدء"
+msgstr "يجب عليك اختيار تاريخ بداية"
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/wizard/general_ledger.py:0
 #: code:addons/language_translation/base_accounting_kit/wizard/general_ledger.py:0
 #, python-format
 msgid "You must define a Start Date"
-msgstr "يجب عليك تحديد تاريخ البدء"
+msgstr "يجب عليك تحديد تاريخ بداية"
 
 #. module: base_accounting_kit
 #: code:addons/base_accounting_kit/wizard/aged_partner.py:0
@@ -3992,7 +3992,7 @@ msgstr "يجب عليك تعيين طول فترة أكبر من 0."
 #: code:addons/language_translation/base_accounting_kit/wizard/aged_partner.py:0
 #, python-format
 msgid "You must set a start date."
-msgstr "يجب عليك تحديد تاريخ البدء."
+msgstr "يجب عليك تعيين تاريخ بداية."
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -4000,7 +4000,7 @@ msgstr "يجب عليك تحديد تاريخ البدء."
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "You reconciled"
-msgstr "أنت تصالح"
+msgstr "لقد قمت بالتسوية"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -4013,22 +4013,22 @@ msgstr "ومتابعة العملاء"
 #. module: base_accounting_kit
 #: model:ir.model,name:base_accounting_kit.model_asset_depreciation_confirmation_wizard
 msgid "asset.depreciation.confirmation.wizard"
-msgstr ""
+msgstr "معالج تأكيد إهلاك الأصل"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_followup_followup_line_form
 msgid "days overdue, do the following actions:"
-msgstr "الأيام المتأخرة ، قم بالإجراءات التالية:"
+msgstr "أيام متأخرة، قم بالإجراءات التالية:"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
 msgid "e.g. Computers"
-msgstr "على سبيل المثال أجهزة الكمبيوتر"
+msgstr "مثال: أجهزة كمبيوتر"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
 msgid "e.g. Laptop iBook"
-msgstr "على سبيل المثال كمبيوتر محمول iBook"
+msgstr "مثال: حاسوب محمول iBook"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_form_view
@@ -4041,18 +4041,18 @@ msgstr "ليس له مبلغ مستحق."
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "have been reconciled automatically."
-msgstr "تم التوفيق بينها تلقائيًا."
+msgstr "تمت تسويتها تلقائيًا."
 
 #. module: base_accounting_kit
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_entries_line__tmpl_id
 msgid "id"
-msgstr ""
+msgstr "المعرف"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.asset_modify_form
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
 msgid "months"
-msgstr "الشهور"
+msgstr "أشهر"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -4060,7 +4060,7 @@ msgstr "الشهور"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "reconcile"
-msgstr "التصالح"
+msgstr "تسوية"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -4068,7 +4068,7 @@ msgstr "التصالح"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "reconciliation models"
-msgstr "نماذج المصالحة"
+msgstr "نماذج التسوية"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -4076,12 +4076,12 @@ msgstr "نماذج المصالحة"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "remaining)"
-msgstr ""
+msgstr "متبقي)"
 
 #. module: base_accounting_kit
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_form_view
 msgid "report"
-msgstr "نقل"
+msgstr "تقرير"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -4089,7 +4089,7 @@ msgstr "نقل"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "seconds per transaction."
-msgstr "ثواني لكل معاملة."
+msgstr "ثانية لكل معاملة."
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -4097,7 +4097,7 @@ msgstr "ثواني لكل معاملة."
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "statement lines"
-msgstr "خطوط البيان"
+msgstr "بنود الكشف"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -4105,7 +4105,7 @@ msgstr "خطوط البيان"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "transactions in"
-msgstr ""
+msgstr "معاملات في"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -4121,7 +4121,7 @@ msgstr "فواتير غير مدفوعة"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "unreconciled entries"
-msgstr "إدخالات لم تتم تسويتها"
+msgstr "قيود غير مسواة"
 
 #. module: base_accounting_kit
 #. openerp-web
@@ -4129,4 +4129,4 @@ msgstr "إدخالات لم تتم تسويتها"
 #: code:addons/language_translation/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #, python-format
 msgid "vendor bills"
-msgstr "فواتير البائعين"
+msgstr "فواتير موردين"
