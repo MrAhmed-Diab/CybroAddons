@@ -19,25 +19,25 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.aged_payable
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.aged_receivable
 msgid "1-30"
-msgstr ""
+msgstr "1-30"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.aged_payable
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.aged_receivable
 msgid "31-60"
-msgstr ""
+msgstr "31-60"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.aged_payable
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.aged_receivable
 msgid "61-90"
-msgstr ""
+msgstr "61-90"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.aged_payable
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.aged_receivable
 msgid "91-120"
-msgstr ""
+msgstr "91-120"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.profit_loss
@@ -45,7 +45,7 @@ msgid ""
 "<span class=\"fw-bolder ms-1\">\n"
 "                                    Expenses\n"
 "                                </span>"
-msgstr "نفقات"
+msgstr "<span class=\"fw-bolder ms-1\">\n                                    المصروفات\n                                </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.profit_loss
@@ -53,7 +53,7 @@ msgid ""
 "<span class=\"fw-bolder ms-2\">\n"
 "                                    Income\n"
 "                                </span>"
-msgstr "دخل"
+msgstr "<span class=\"fw-bolder ms-2\">\n                                    الإيرادات\n                                </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.profit_loss
@@ -61,14 +61,14 @@ msgid ""
 "<span class=\"fw-bolder ms-2\">\n"
 "                                    Total Income\n"
 "                                </span>"
-msgstr "إجمالي الدخل"
+msgstr "<span class=\"fw-bolder ms-2\">\n                                    إجمالي الإيرادات\n                                </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.profit_loss
 msgid ""
 "<span class=\"fw-bolder ms-2\">Total Expenses\n"
 "                                    </span>"
-msgstr "المصروفات الكلية"
+msgstr "<span class=\"fw-bolder ms-2\">إجمالي المصروفات\n                                    </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.profit_loss
@@ -76,7 +76,7 @@ msgid ""
 "<span class=\"fw-bolder ms-3\">\n"
 "                                    Gross Profit\n"
 "                                </span>"
-msgstr "اجمالي الربح"
+msgstr "<span class=\"fw-bolder ms-3\">\n                                    إجمالي الربح\n                                </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.profit_loss
@@ -84,7 +84,7 @@ msgid ""
 "<span class=\"fw-bolder\">\n"
 "                                    Net Profit\n"
 "                                </span>"
-msgstr "صافي الربح"
+msgstr "<span class=\"fw-bolder\">\n                                    صافي الربح\n                                </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.profit_loss
@@ -92,41 +92,41 @@ msgid ""
 "<span class=\"ms-3\">Cost of\n"
 "                                    Revenue\n"
 "                                </span>"
-msgstr "ربح"
+msgstr "<span class=\"ms-3\">تكلفة\n                                    الإيرادات\n                                </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.profit_loss
 msgid ""
 "<span class=\"ms-3\">Depreciation\n"
 "                                    </span>"
-msgstr "الاستهلاك"
+msgstr "<span class=\"ms-3\">الإهلاك\n                                    </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.profit_loss
 msgid "<span class=\"ms-3\">Expenses</span>"
-msgstr "نفقات"
+msgstr "<span class=\"ms-3\">المصروفات</span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.profit_loss
 msgid "<span class=\"ms-3\">Operating Income</span>"
-msgstr "الدخل التشغيلي"
+msgstr "<span class=\"ms-3\">الدخل التشغيلي</span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.profit_loss
 msgid ""
 "<span class=\"ms-3\">Other Income\n"
 "                                </span>"
-msgstr "مصدر دخل آخر"
+msgstr "<span class=\"ms-3\">إيرادات أخرى\n                                </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.tax_report
 msgid "<span style=\"font-weight: 700;\">Purchase</span>"
-msgstr "شراء"
+msgstr "<span style=\"font-weight: 700;\">المشتريات</span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.tax_report
 msgid "<span style=\"font-weight: 700;\">Sales</span>"
-msgstr "مبيعات"
+msgstr "<span style=\"font-weight: 700;\">المبيعات</span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
@@ -134,7 +134,7 @@ msgid ""
 "<span style=\"font-weight: bolder; margin-left: 2%;\">\n"
 "                                        ASSETS\n"
 "                                    </span>"
-msgstr "أصول"
+msgstr "<span style=\"font-weight: bolder; margin-left: 2%;\">\n" "                                        الأصول\n" "                                    </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
@@ -142,7 +142,7 @@ msgid ""
 "<span style=\"font-weight: bolder; margin-left: 2%;\">\n"
 "                                        EQUITY\n"
 "                                    </span>"
-msgstr "عدالة"
+msgstr "<span style=\"font-weight: bolder; margin-left: 2%;\">\n" "                                        حقوق الملكية\n" "                                    </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
@@ -150,7 +150,7 @@ msgid ""
 "<span style=\"font-weight: bolder; margin-left: 2%;\">\n"
 "                                        LIABILITIES\n"
 "                                    </span>"
-msgstr "الإلتزامات"
+msgstr "<span style=\"font-weight: bolder; margin-left: 2%;\">\n" "                                        الالتزامات\n" "                                    </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
@@ -158,7 +158,7 @@ msgid ""
 "<span style=\"font-weight: bolder; margin-left: 4%;\">\n"
 "                                        Current Assets\n"
 "                                    </span>"
-msgstr "الاصول المتداولة"
+msgstr "<span style=\"font-weight: bolder; margin-left: 4%;\">\n" "                                        الأصول المتداولة\n" "                                    </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
@@ -166,7 +166,7 @@ msgid ""
 "<span style=\"font-weight: bolder; margin-left: 4%;\">\n"
 "                                        Current Liabilities\n"
 "                                    </span>"
-msgstr "المطلوبات المتداولة"
+msgstr "<span style=\"font-weight: bolder; margin-left: 4%;\">\n" "                                        الالتزامات المتداولة\n" "                                    </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
@@ -174,7 +174,7 @@ msgid ""
 "<span style=\"font-weight: bolder; margin-left: 4%;\">\n"
 "                                        LIABILITIES + EQUITY\n"
 "                                    </span>"
-msgstr "المطلوبات + حقوق الملكية"
+msgstr "<span style=\"font-weight: bolder; margin-left: 4%;\">\n" "                                        الالتزامات + حقوق الملكية\n" "                                    </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
@@ -182,7 +182,7 @@ msgid ""
 "<span style=\"font-weight: bolder; margin-left: 4%;\">\n"
 "                                        Total Assets\n"
 "                                    </span>"
-msgstr "إجمالي الأصول"
+msgstr "<span style=\"font-weight: bolder; margin-left: 4%;\">\n" "                                        إجمالي الأصول\n" "                                    </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
@@ -190,7 +190,7 @@ msgid ""
 "<span style=\"font-weight: bolder; margin-left: 4%;\">\n"
 "                                        Total Current Assets\n"
 "                                    </span>"
-msgstr "إجمالي الممتلكات الحالية"
+msgstr "<span style=\"font-weight: bolder; margin-left: 4%;\">\n" "                                        إجمالي الأصول المتداولة\n" "                                    </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
@@ -198,7 +198,7 @@ msgid ""
 "<span style=\"font-weight: bolder; margin-left: 4%;\">\n"
 "                                        Total Current Liabilities\n"
 "                                    </span>"
-msgstr "إجمالي الطلبات الحالية"
+msgstr "<span style=\"font-weight: bolder; margin-left: 4%;\">\n" "                                        إجمالي الالتزامات المتداولة\n" "                                    </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
@@ -206,7 +206,7 @@ msgid ""
 "<span style=\"font-weight: bolder; margin-left: 4%;\">\n"
 "                                        Total EQUITY\n"
 "                                    </span>"
-msgstr "مجموع الاسهم"
+msgstr "<span style=\"font-weight: bolder; margin-left: 4%;\">\n" "                                        إجمالي حقوق الملكية\n" "                                    </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
@@ -214,7 +214,7 @@ msgid ""
 "<span style=\"font-weight: bolder; margin-left: 4%;\">\n"
 "                                        Total LIABILITIES\n"
 "                                    </span>"
-msgstr "اجمالي المطلوبات"
+msgstr "<span style=\"font-weight: bolder; margin-left: 4%;\">\n" "                                        إجمالي الالتزامات\n" "                                    </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
@@ -222,7 +222,7 @@ msgid ""
 "<span style=\"font-weight: bolder; margin-left: 4%;\">\n"
 "                                        Total Unallocated Earnings\n"
 "                                    </span>"
-msgstr "إجمالي الأرباح غير المخصصة"
+msgstr "<span style=\"font-weight: bolder; margin-left: 4%;\">\n" "                                        إجمالي الأرباح غير الموزعة\n" "                                    </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
@@ -230,91 +230,91 @@ msgid ""
 "<span style=\"font-weight: bolder; margin-left: 4%;\">\n"
 "                                        Unallocated Earnings\n"
 "                                    </span>"
-msgstr "الأرباح غير المخصصة"
+msgstr "<span style=\"font-weight: bolder; margin-left: 4%;\">\n" "                                        الأرباح غير الموزعة\n" "                                    </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
 msgid ""
 "<span style=\"margin-left: 6%;\">Bank and Cash Accounts\n"
 "                                    </span>"
-msgstr "الحسابات المصرفية والنقدية"
+msgstr "<span style=\"margin-left: 6%;\">الحسابات البنكية والنقدية\n" "                                    </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
 msgid ""
 "<span style=\"margin-left: 6%;\">Current Allocated Earnings\n"
 "                                    </span>"
-msgstr "الأرباح المخصصة الحالية"
+msgstr "<span style=\"margin-left: 6%;\">الأرباح الموزعة الحالية\n" "                                    </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
 msgid ""
 "<span style=\"margin-left: 6%;\">Current Assets\n"
 "                                    </span>"
-msgstr "الاصول المتداولة"
+msgstr "<span style=\"margin-left: 6%;\">الأصول المتداولة\n" "                                    </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
 msgid ""
 "<span style=\"margin-left: 6%;\">Current Earnings\n"
 "                                    </span>"
-msgstr "المكاسب الحاليه"
+msgstr "<span style=\"margin-left: 6%;\">الأرباح الحالية\n" "                                    </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
 msgid ""
 "<span style=\"margin-left: 6%;\">Current Liabilities\n"
 "                                    </span>"
-msgstr "المطلوبات المتداولة"
+msgstr "<span style=\"margin-left: 6%;\">الالتزامات المتداولة\n" "                                    </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
 msgid ""
 "<span style=\"margin-left: 6%;\">Payables\n"
 "                                    </span>"
-msgstr "الذمم الدائنة"
+msgstr "<span style=\"margin-left: 6%;\">الدائنون\n" "                                    </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
 msgid ""
 "<span style=\"margin-left: 6%;\">Plus Fixed Assets\n"
 "                                    </span>"
-msgstr "بالإضافة إلى الأصول الثابتة"
+msgstr "<span style=\"margin-left: 6%;\">بالإضافة إلى الأصول الثابتة\n" "                                    </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
 msgid ""
 "<span style=\"margin-left: 6%;\">Plus Non-current Assets\n"
 "                                    </span>"
-msgstr "بالإضافة إلى الأصول غير المتداولة"
+msgstr "<span style=\"margin-left: 6%;\">بالإضافة إلى الأصول غير المتداولة\n" "                                    </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
 msgid ""
 "<span style=\"margin-left: 6%;\">Plus Non-current Liabilities\n"
 "                                    </span>"
-msgstr "بالإضافة إلى الالتزامات غير المتداولة"
+msgstr "<span style=\"margin-left: 6%;\">بالإضافة إلى الالتزامات غير المتداولة\n" "                                    </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
 msgid ""
 "<span style=\"margin-left: 6%;\">Prepayments\n"
 "                                    </span>"
-msgstr "المدفوعات المسبقة"
+msgstr "<span style=\"margin-left: 6%;\">المدفوعات المقدمة\n" "                                    </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
 msgid ""
 "<span style=\"margin-left: 6%;\">Receivables\n"
 "                                    </span>"
-msgstr "المستحقات"
+msgstr "<span style=\"margin-left: 6%;\">المدينون\n" "                                    </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.balance_sheet
 msgid ""
 "<span style=\"margin-left: 6%;\">Retained Earnings\n"
 "                                    </span>"
-msgstr "الأرباح المحتجزة"
+msgstr "<span style=\"margin-left: 6%;\">الأرباح المحتجزة\n" "                                    </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.general_ledger
@@ -322,7 +322,7 @@ msgid ""
 "<span>Unknown\n"
 "                                                            Account\n"
 "                                                        </span>"
-msgstr ""
+msgstr "<span>حساب\n" "                                                            غير معروف\n" "                                                        </span>"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.partner_ledger
@@ -330,7 +330,7 @@ msgid ""
 "<span>Unknown\n"
 "                                                            Partner\n"
 "                                                        </span>"
-msgstr ""
+msgstr "<span>شريك\n" "                                                            غير معروف\n" "                                                        </span>"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -338,7 +338,7 @@ msgstr ""
 #: code:addons/dynamic_accounts_report/static/src/xml/balance_sheet_template.xml:0
 #, python-format
 msgid "ASSETS"
-msgstr "أصول"
+msgstr "الأصول"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -359,17 +359,17 @@ msgstr "أصول"
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.trial_balance
 #, python-format
 msgid "Account"
-msgstr ""
+msgstr "الحساب"
 
 #. module: dynamic_accounts_report
 #: model:ir.model,name:dynamic_accounts_report.model_bank_book_report
 msgid "Account Bank Book Report"
-msgstr "تقرير كتاب حساب البنك"
+msgstr "تقرير دفتر البنك"
 
 #. module: dynamic_accounts_report
 #: model:ir.model,name:dynamic_accounts_report.model_cash_book_report
 msgid "Account Cash Book Report"
-msgstr "تقرير دفتر الحساب النقدي"
+msgstr "تقرير دفتر النقدية"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -404,7 +404,7 @@ msgstr "تقرير دفتر الحساب النقدي"
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_dynamic_balance_sheet_report__account_ids
 #, python-format
 msgid "Accounts"
-msgstr "حسابات"
+msgstr "الحسابات"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -414,39 +414,39 @@ msgstr "حسابات"
 #: code:addons/dynamic_accounts_report/static/src/xml/profit_and_loss_templates.xml:0
 #, python-format
 msgid "Accounts:"
-msgstr "حسابات"
+msgstr "الحسابات:"
 
 #. module: dynamic_accounts_report
 #: model:ir.actions.report,name:dynamic_accounts_report.action_print_aged_payable
 msgid "Age Payable"
-msgstr "العمر المستحق"
+msgstr "أعمار ديون الذمم الدائنة"
 
 #. module: dynamic_accounts_report
 #: model:ir.actions.report,name:dynamic_accounts_report.action_print_aged_receivable
 msgid "Age Receivable"
-msgstr "العمر المستحق"
+msgstr "أعمار ديون الذمم المدينة"
 
 #. module: dynamic_accounts_report
 #: model:ir.actions.client,name:dynamic_accounts_report.action_aged_payable
 #: model:ir.ui.menu,name:dynamic_accounts_report.aged_payable_menu
 msgid "Aged Payable"
-msgstr "العمر المستحق"
+msgstr "أعمار دين الذمم الدائنة"
 
 #. module: dynamic_accounts_report
 #: model:ir.model,name:dynamic_accounts_report.model_age_payable_report
 msgid "Aged Payable Report"
-msgstr "تقرير المسنين المستحق الدفع"
+msgstr "تقرير أعمار الذمم الدائنة"
 
 #. module: dynamic_accounts_report
 #: model:ir.actions.client,name:dynamic_accounts_report.action_aged_receivable
 #: model:ir.ui.menu,name:dynamic_accounts_report.aged_receivable_menu
 msgid "Aged Receivable"
-msgstr "العمر المستحق"
+msgstr "أعمار ديون الذمم المدينة"
 
 #. module: dynamic_accounts_report
 #: model:ir.model,name:dynamic_accounts_report.model_age_receivable_report
 msgid "Aged Receivable Report"
-msgstr "تقرير المستحقات القديمة"
+msgstr "تقرير أعمار ديون الذمم المدينة"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -461,7 +461,7 @@ msgstr "تقرير المستحقات القديمة"
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.partner_ledger
 #, python-format
 msgid "Amount Currency"
-msgstr "العملة كمية"
+msgstr "مبلغ العملة"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.profit_loss
@@ -508,7 +508,7 @@ msgstr "الحسابات التحليلية المرتبطة بالسجل الح
 #: code:addons/dynamic_accounts_report/static/src/xml/trial_balance_view.xml:0
 #, python-format
 msgid "Apply"
-msgstr "يتقدم"
+msgstr "تطبيق"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -543,21 +543,21 @@ msgstr "في التاريخ"
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.profit_loss
 #, python-format
 msgid "Balance"
-msgstr "توازن"
+msgstr "الرصيد"
 
 #. module: dynamic_accounts_report
 #: model:ir.actions.client,name:dynamic_accounts_report.action_dynamic_balance_sheet
 #: model:ir.actions.report,name:dynamic_accounts_report.action_print_balance_sheet
 #: model:ir.ui.menu,name:dynamic_accounts_report.menu_balance_sheet_report
 msgid "Balance Sheet"
-msgstr "ورقة التوازن"
+msgstr "الميزانية العمومية"
 
 #. module: dynamic_accounts_report
 #: model:ir.actions.client,name:dynamic_accounts_report.action_bank_book
 #: model:ir.actions.report,name:dynamic_accounts_report.action_print_bank_book
 #: model:ir.ui.menu,name:dynamic_accounts_report.menu_bank_book
 msgid "Bank Book"
-msgstr "كتاب البنك"
+msgstr "دفتر البنك"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -567,7 +567,7 @@ msgstr "كتاب البنك"
 msgid ""
 "Bank and\n"
 "                                                    Cash Accounts"
-msgstr "الحسابات النقدية البنكية"
+msgstr "الحسابات البنكية والنقدية"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -575,13 +575,13 @@ msgstr "الحسابات النقدية البنكية"
 #: code:addons/dynamic_accounts_report/static/src/xml/balance_sheet_template.xml:0
 #, python-format
 msgid "Bank and Cash Accounts"
-msgstr "الحسابات المصرفية والنقدية"
+msgstr "الحسابات البنكية والنقدية"
 
 #. module: dynamic_accounts_report
 #: model:ir.actions.client,name:dynamic_accounts_report.action_cash_book
 #: model:ir.ui.menu,name:dynamic_accounts_report.menu_cash_book
 msgid "Cash Book"
-msgstr "كتاب النقدية"
+msgstr "دفتر النقدية"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -600,12 +600,12 @@ msgstr "طريقة الأساس النقدي"
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.general_ledger
 #, python-format
 msgid "Communication"
-msgstr "تواصل"
+msgstr "البيان"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_dynamic_balance_sheet_report__company_id
 msgid "Company"
-msgstr "شركة"
+msgstr "الشركة"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -638,7 +638,7 @@ msgstr "شركة"
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.trial_balance
 #, python-format
 msgid "Comparison"
-msgstr "مقارنة"
+msgstr "المقارنة"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -649,7 +649,7 @@ msgid ""
 "Cost\n"
 "                                                                of\n"
 "                                                                Revenue"
-msgstr "إيرادات التكلفة"
+msgstr "تكلفة الإيرادات"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -659,7 +659,7 @@ msgstr "إيرادات التكلفة"
 msgid ""
 "Cost of\n"
 "                                                        Revenue"
-msgstr "إيرادات التكلفة"
+msgstr "تكلفة الإيرادات"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_general_ledger__create_uid
@@ -672,7 +672,7 @@ msgstr "إيرادات التكلفة"
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_dynamic_balance_sheet_report__create_uid
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_tax_report__create_uid
 msgid "Created by"
-msgstr "انشأ من قبل"
+msgstr "أنشئ بواسطة"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_general_ledger__create_date
@@ -685,7 +685,7 @@ msgstr "انشأ من قبل"
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_dynamic_balance_sheet_report__create_date
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_tax_report__create_date
 msgid "Created on"
-msgstr "تم إنشاؤها على"
+msgstr "أنشئ في"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -711,7 +711,7 @@ msgstr "تم إنشاؤها على"
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.trial_balance
 #, python-format
 msgid "Credit"
-msgstr "ائتمان"
+msgstr "دائن"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -723,7 +723,7 @@ msgstr "ائتمان"
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.aged_receivable
 #, python-format
 msgid "Currency"
-msgstr "عملة"
+msgstr "العملة"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -733,7 +733,7 @@ msgstr "عملة"
 msgid ""
 "Current\n"
 "                                                    Allocated Earnings"
-msgstr "الأرباح المخصصة الحالية"
+msgstr "الأرباح الموزعة الحالية"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -743,7 +743,7 @@ msgstr "الأرباح المخصصة الحالية"
 msgid ""
 "Current\n"
 "                                                    Assets"
-msgstr "الاصول المتداولة"
+msgstr "الأصول المتداولة"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -753,7 +753,7 @@ msgstr "الاصول المتداولة"
 msgid ""
 "Current\n"
 "                                                    Earnings"
-msgstr "المكاسب الحاليه"
+msgstr "الأرباح الحالية"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -763,7 +763,7 @@ msgstr "المكاسب الحاليه"
 msgid ""
 "Current Allocated\n"
 "                                                            Earnings"
-msgstr "الأرباح المخصصة الحالية"
+msgstr "الأرباح الموزعة الحالية"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -773,7 +773,7 @@ msgstr "الأرباح المخصصة الحالية"
 #: code:addons/dynamic_accounts_report/static/src/xml/balance_sheet_template.xml:0
 #, python-format
 msgid "Current Assets"
-msgstr "الاصول المتداولة"
+msgstr "الأصول المتداولة"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -783,7 +783,7 @@ msgstr "الاصول المتداولة"
 #: code:addons/dynamic_accounts_report/static/src/xml/balance_sheet_template.xml:0
 #, python-format
 msgid "Current Liabilities"
-msgstr "المطلوبات المتداولة"
+msgstr "الالتزامات المتداولة"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -792,7 +792,7 @@ msgstr "المطلوبات المتداولة"
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.general_ledger
 #, python-format
 msgid "Date"
-msgstr "تاريخ"
+msgstr "التاريخ"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -804,7 +804,7 @@ msgstr "تاريخ"
 msgid ""
 "Date\n"
 "                                            :"
-msgstr "تاريخ"
+msgstr "التاريخ:"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -838,7 +838,7 @@ msgstr "تاريخ"
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.trial_balance
 #, python-format
 msgid "Date Range"
-msgstr "نطاق الموعد"
+msgstr "نطاق التاريخ"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -904,7 +904,7 @@ msgstr "نطاق الموعد"
 #: code:addons/dynamic_accounts_report/static/src/xml/trial_balance_view.xml:0
 #, python-format
 msgid "Dates"
-msgstr "بلح"
+msgstr "التواريخ"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -930,7 +930,7 @@ msgstr "بلح"
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.trial_balance
 #, python-format
 msgid "Debit"
-msgstr "دَين"
+msgstr "مدين"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -940,7 +940,7 @@ msgstr "دَين"
 #: code:addons/dynamic_accounts_report/static/src/xml/profit_and_loss_templates.xml:0
 #, python-format
 msgid "Depreciation"
-msgstr "الاستهلاك"
+msgstr "الإهلاك"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_general_ledger__display_name
@@ -953,7 +953,7 @@ msgstr "الاستهلاك"
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_dynamic_balance_sheet_report__display_name
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_tax_report__display_name
 msgid "Display Name"
-msgstr "اسم العرض"
+msgstr "الاسم المعروض"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields.selection,name:dynamic_accounts_report.selection__dynamic_balance_sheet_report__target_move__draft
@@ -980,7 +980,7 @@ msgstr "التقارير المالية الديناميكية"
 #: code:addons/dynamic_accounts_report/static/src/xml/balance_sheet_template.xml:0
 #, python-format
 msgid "EQUITY"
-msgstr "عدالة"
+msgstr "حقوق الملكية"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -993,7 +993,7 @@ msgid ""
 "End\n"
 "                                                Date\n"
 "                                                :"
-msgstr "تاريخ الانتهاء"
+msgstr "تاريخ النهاية:"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1022,12 +1022,12 @@ msgstr "الرصيد النهائي"
 msgid ""
 "End Date\n"
 "                                            :"
-msgstr "تاريخ الانتهاء"
+msgstr "تاريخ النهاية:"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_dynamic_balance_sheet_report__date_to
 msgid "End date"
-msgstr "تاريخ الانتهاء"
+msgstr "تاريخ النهاية"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1068,7 +1068,7 @@ msgstr "نهاية العام الماضي"
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.bank_book
 #, python-format
 msgid "Entry label"
-msgstr "تسمية الإدخال"
+msgstr "تسمية القيد"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1087,12 +1087,12 @@ msgstr "التاريخ المتوقع"
 #: code:addons/cust1/dynamic_accounts_report/static/src/xml/profit_and_loss_templates.xml:0
 #: code:addons/cust1/dynamic_accounts_report/static/src/xml/profit_and_loss_templates.xml:0
 #: code:addons/cust1/dynamic_accounts_report/static/src/xml/profit_and_loss_templates.xml:0
-#: code:addons/dynamic_accounts_report/static/src/xml/profit_and_loss_templates.xml:0
-#: code:addons/dynamic_accounts_report/static/src/xml/profit_and_loss_templates.xml:0
+#: code:addons/cust1/dynamic_accounts_report/static/src/xml/profit_and_loss_templates.xml:0
+#: code:addons/cust1/dynamic_accounts_report/static/src/xml/profit_and_loss_templates.xml:0
 #: code:addons/dynamic_accounts_report/static/src/xml/profit_and_loss_templates.xml:0
 #, python-format
 msgid "Expenses"
-msgstr "نفقات"
+msgstr "المصروفات"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1182,7 +1182,7 @@ msgstr "دفتر الأستاذ العام"
 #. module: dynamic_accounts_report
 #: model:ir.model,name:dynamic_accounts_report.model_account_general_ledger
 msgid "General Ledger Report"
-msgstr ""
+msgstr "تقرير دفتر الأستاذ العام"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1190,7 +1190,7 @@ msgstr ""
 #: code:addons/dynamic_accounts_report/static/src/xml/tax_report_views.xml:0
 #, python-format
 msgid "Generic Tax Report"
-msgstr "التقرير الضريبي العام"
+msgstr "تقرير الضريبة العام"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1198,7 +1198,7 @@ msgstr "التقرير الضريبي العام"
 #: code:addons/dynamic_accounts_report/static/src/xml/profit_and_loss_templates.xml:0
 #, python-format
 msgid "Gross Profit"
-msgstr "اجمالي الربح"
+msgstr "إجمالي الربح"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1206,7 +1206,7 @@ msgstr "اجمالي الربح"
 #: code:addons/dynamic_accounts_report/static/src/xml/tax_report_views.xml:0
 #, python-format
 msgid "Group by: Account > Tax"
-msgstr "التجميع حسب: الحساب > الضريبة"
+msgstr "تجميع حسب: الحساب > الضريبة"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1214,7 +1214,7 @@ msgstr "التجميع حسب: الحساب > الضريبة"
 #: code:addons/dynamic_accounts_report/static/src/xml/tax_report_views.xml:0
 #, python-format
 msgid "Group by: Tax > Account"
-msgstr "التجميع حسب: الضريبة > الحساب"
+msgstr "تجميع حسب: الضريبة > الحساب"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_general_ledger__id
@@ -1227,7 +1227,7 @@ msgstr "التجميع حسب: الضريبة > الحساب"
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_dynamic_balance_sheet_report__id
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_tax_report__id
 msgid "ID"
-msgstr "بطاقة تعريف"
+msgstr "المعرف"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1249,7 +1249,7 @@ msgstr "بطاقة تعريف"
 #: code:addons/dynamic_accounts_report/static/src/xml/trial_balance_view.xml:0
 #, python-format
 msgid "Include Draft Entries"
-msgstr "تضمين مسودة الإدخالات"
+msgstr "تضمين قيود المسودة"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1257,7 +1257,7 @@ msgstr "تضمين مسودة الإدخالات"
 #: code:addons/dynamic_accounts_report/static/src/xml/profit_and_loss_templates.xml:0
 #, python-format
 msgid "Income"
-msgstr "دخل"
+msgstr "الإيرادات"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1287,7 +1287,7 @@ msgstr "تاريخ الفاتورة"
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.partner_ledger
 #, python-format
 msgid "JRNL"
-msgstr "JRNL"
+msgstr "اليومية"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1301,7 +1301,7 @@ msgstr "JRNL"
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.trial_balance
 #, python-format
 msgid "Journal"
-msgstr "مجلة"
+msgstr "اليومية"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1317,7 +1317,7 @@ msgstr "مجلة"
 #: code:addons/dynamic_accounts_report/static/src/xml/trial_balance_view.xml:0
 #, python-format
 msgid "Journal Items"
-msgstr "عناصر المجلة"
+msgstr "بنود اليومية"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1332,7 +1332,7 @@ msgstr "عناصر المجلة"
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_dynamic_balance_sheet_report__journal_ids
 #, python-format
 msgid "Journals"
-msgstr "المجلات"
+msgstr "اليوميات"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1342,7 +1342,7 @@ msgstr "المجلات"
 #: code:addons/dynamic_accounts_report/static/src/xml/profit_and_loss_templates.xml:0
 #, python-format
 msgid "Journals:"
-msgstr "المجلات:"
+msgstr "اليوميات:"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1350,7 +1350,7 @@ msgstr "المجلات:"
 #: code:addons/dynamic_accounts_report/static/src/xml/balance_sheet_template.xml:0
 #, python-format
 msgid "LIABILITIES"
-msgstr "الإلتزامات"
+msgstr "الالتزامات"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1358,7 +1358,7 @@ msgstr "الإلتزامات"
 #: code:addons/dynamic_accounts_report/static/src/xml/balance_sheet_template.xml:0
 #, python-format
 msgid "LIABILITIES + EQUITY"
-msgstr "المطلوبات + حقوق الملكية"
+msgstr "الالتزامات + حقوق الملكية"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_account_general_ledger__write_uid
@@ -1384,7 +1384,7 @@ msgstr "آخر تحديث بواسطة"
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_dynamic_balance_sheet_report__write_date
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_tax_report__write_date
 msgid "Last Updated on"
-msgstr "آخر تحديث بتاريخ"
+msgstr "آخر تحديث في"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1470,7 +1470,7 @@ msgstr "رقم المطابقة"
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.bank_book
 #, python-format
 msgid "Move"
-msgstr "يتحرك"
+msgstr "الحركة"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1481,7 +1481,7 @@ msgstr "يتحرك"
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.tax_report
 #, python-format
 msgid "NET"
-msgstr "شبكة"
+msgstr "الصافي"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1503,7 +1503,7 @@ msgstr "صافي الربح"
 #: code:addons/dynamic_accounts_report/static/src/xml/trial_balance_view.xml:0
 #, python-format
 msgid "No Comparison"
-msgstr "لا مقارنة"
+msgstr "بدون مقارنة"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1537,7 +1537,7 @@ msgstr "عدد الفترات:"
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.aged_receivable
 #, python-format
 msgid "Older"
-msgstr "اكبر سنا"
+msgstr "أقدم"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1549,7 +1549,7 @@ msgstr "اكبر سنا"
 #: code:addons/dynamic_accounts_report/static/src/xml/partner_ledger_view.xml:0
 #, python-format
 msgid "Open"
-msgstr "يفتح"
+msgstr "مفتوح"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1584,7 +1584,7 @@ msgstr "الدخل التشغيلي"
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.trial_balance
 #, python-format
 msgid "Options"
-msgstr "خيارات"
+msgstr "الخيارات"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1594,7 +1594,7 @@ msgstr "خيارات"
 #: code:addons/dynamic_accounts_report/static/src/xml/tax_report_views.xml:0
 #, python-format
 msgid "Options : Posted Entries"
-msgstr "الخيارات: الإدخالات المنشورة"
+msgstr "الخيارات: القيود المرحّلة"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1602,7 +1602,7 @@ msgstr "الخيارات: الإدخالات المنشورة"
 #: code:addons/dynamic_accounts_report/static/src/xml/trial_balance_view.xml:0
 #, python-format
 msgid "Options : Posted Entries ,"
-msgstr "الخيارات: الإدخالات المنشورة،"
+msgstr "الخيارات: القيود المرحّلة،"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1612,7 +1612,7 @@ msgstr "الخيارات: الإدخالات المنشورة،"
 #: code:addons/dynamic_accounts_report/static/src/xml/cash_flow_templates.xml:0
 #, python-format
 msgid "Options :Posted Entries"
-msgstr "الخيارات: الإدخالات المنشورة"
+msgstr "الخيارات: القيود المرحّلة"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1620,7 +1620,7 @@ msgstr "الخيارات: الإدخالات المنشورة"
 #: code:addons/dynamic_accounts_report/static/src/xml/general_ledger_view.xml:0
 #, python-format
 msgid "Options :Posted Entries ,"
-msgstr "الخيارات:الإدخالات المنشورة،"
+msgstr "الخيارات: القيود المرحّلة،"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1630,7 +1630,7 @@ msgstr "الخيارات:الإدخالات المنشورة،"
 msgid ""
 "Other\n"
 "                                                        Income"
-msgstr ""
+msgstr "إيرادات أخرى"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1638,7 +1638,7 @@ msgstr ""
 #: code:addons/dynamic_accounts_report/static/src/xml/profit_and_loss_templates.xml:0
 #, python-format
 msgid "Other Income"
-msgstr "مصدر دخل آخر"
+msgstr "إيرادات أخرى"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1655,19 +1655,19 @@ msgstr "مصدر دخل آخر"
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.partner_ledger
 #, python-format
 msgid "Partner"
-msgstr "شريك"
+msgstr "الشريك"
 
 #. module: dynamic_accounts_report
 #: model:ir.actions.client,name:dynamic_accounts_report.action_partner_ledger
 #: model:ir.actions.report,name:dynamic_accounts_report.action_print_partner_ledger
 #: model:ir.ui.menu,name:dynamic_accounts_report.menu_partner_ledger
 msgid "Partner Ledger"
-msgstr "دفتر الأستاذ الشريك"
+msgstr "دفتر أستاذ الشركاء"
 
 #. module: dynamic_accounts_report
 #: model:ir.model,name:dynamic_accounts_report.model_account_partner_ledger
 msgid "Partner Ledger Report"
-msgstr "تقرير دفتر الأستاذ الشريك"
+msgstr "تقرير دفتر أستاذ الشركاء"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1675,12 +1675,12 @@ msgstr "تقرير دفتر الأستاذ الشريك"
 #: code:addons/dynamic_accounts_report/static/src/xml/partner_ledger_view.xml:0
 #, python-format
 msgid "Payable"
-msgstr "مستحق الدفع"
+msgstr "دائن"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
 #: code:addons/cust1/dynamic_accounts_report/static/src/xml/balance_sheet_template.xml:0
-#: code:addons/cust1/dynamic_accounts_report/static/src/xml/balance_sheet_template.xml:0
+#: code:addons/dynamic_accounts_report/static/src/xml/balance_sheet_template.xml:0
 #: code:addons/dynamic_accounts_report/static/src/xml/balance_sheet_template.xml:0
 #: code:addons/dynamic_accounts_report/static/src/xml/balance_sheet_template.xml:0
 #, python-format
@@ -1690,7 +1690,7 @@ msgstr "الذمم الدائنة"
 #. module: dynamic_accounts_report
 #. odoo-javascript
 #: code:addons/cust1/dynamic_accounts_report/static/src/xml/balance_sheet_template.xml:0
-#: code:addons/cust1/dynamic_accounts_report/static/src/xml/balance_sheet_template.xml:0
+#: code:addons/dynamic_accounts_report/static/src/xml/balance_sheet_template.xml:0
 #: code:addons/dynamic_accounts_report/static/src/xml/balance_sheet_template.xml:0
 #: code:addons/dynamic_accounts_report/static/src/xml/balance_sheet_template.xml:0
 #, python-format
@@ -1746,12 +1746,12 @@ msgstr "بالإضافة إلى الالتزامات غير المتداولة"
 #. module: dynamic_accounts_report
 #: model:ir.model.fields.selection,name:dynamic_accounts_report.selection__dynamic_balance_sheet_report__target_move__posted
 msgid "Posted"
-msgstr "نشر"
+msgstr "مرحّل"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.general_ledger
 msgid "Posted ,"
-msgstr "تم النشر ,"
+msgstr "مرحّل،"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1761,7 +1761,7 @@ msgstr "تم النشر ,"
 #: code:addons/dynamic_accounts_report/static/src/xml/profit_and_loss_templates.xml:0
 #, python-format
 msgid "Posted Entries"
-msgstr "المشاركات المنشورة"
+msgstr "القيود المرحّلة"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1771,7 +1771,7 @@ msgstr "المشاركات المنشورة"
 #: code:addons/dynamic_accounts_report/static/src/xml/balance_sheet_template.xml:0
 #, python-format
 msgid "Prepayments"
-msgstr "المدفوعات المسبقة"
+msgstr "المدفوعات المقدمة"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1785,7 +1785,7 @@ msgstr "المدفوعات المسبقة"
 #: code:addons/dynamic_accounts_report/static/src/xml/trial_balance_view.xml:0
 #, python-format
 msgid "Previous Period"
-msgstr "Previous Period"
+msgstr "الفترة السابقة"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1811,7 +1811,7 @@ msgstr "Previous Period"
 #: code:addons/dynamic_accounts_report/static/src/xml/trial_balance_view.xml:0
 #, python-format
 msgid "Print (PDF)"
-msgstr "طباعة (بي دي إف)"
+msgstr "طباعة (PDF)"
 
 #. module: dynamic_accounts_report
 #: model:ir.actions.report,name:dynamic_accounts_report.action_print_profit_loss
@@ -1821,13 +1821,13 @@ msgstr "الربح والخسارة"
 #. module: dynamic_accounts_report
 #: model:ir.model,name:dynamic_accounts_report.model_dynamic_balance_sheet_report
 msgid "Profit Loss Report"
-msgstr ""
+msgstr "تقرير الربح والخسارة"
 
 #. module: dynamic_accounts_report
 #: model:ir.actions.client,name:dynamic_accounts_report.action_dynamic_profit_and_loss
 #: model:ir.ui.menu,name:dynamic_accounts_report.menu_profit_and_loss_report
 msgid "Profit and Loss"
-msgstr "تقرير خسارة الربح"
+msgstr "الربح والخسارة"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1835,7 +1835,7 @@ msgstr "تقرير خسارة الربح"
 #: code:addons/dynamic_accounts_report/static/src/xml/tax_report_views.xml:0
 #, python-format
 msgid "Purchase"
-msgstr "شراء"
+msgstr "المشتريات"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1843,17 +1843,17 @@ msgstr "شراء"
 #: code:addons/dynamic_accounts_report/static/src/xml/partner_ledger_view.xml:0
 #, python-format
 msgid "Receivable"
-msgstr "مستحق"
+msgstr "المدين"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
 #: code:addons/cust1/dynamic_accounts_report/static/src/xml/balance_sheet_template.xml:0
-#: code:addons/cust1/dynamic_accounts_report/static/src/xml/balance_sheet_template.xml:0
+#: code:addons/dynamic_accounts_report/static/src/xml/balance_sheet_template.xml:0
 #: code:addons/dynamic_accounts_report/static/src/xml/balance_sheet_template.xml:0
 #: code:addons/dynamic_accounts_report/static/src/xml/balance_sheet_template.xml:0
 #, python-format
 msgid "Receivables"
-msgstr "المستحقات"
+msgstr "الذمم المدينة"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1886,7 +1886,7 @@ msgstr "تقرير"
 #: code:addons/dynamic_accounts_report/static/src/xml/tax_report_views.xml:0
 #, python-format
 msgid "Reports :"
-msgstr "التقارير"
+msgstr "التقارير:"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1912,7 +1912,7 @@ msgstr "الأرباح المحتجزة"
 #: code:addons/dynamic_accounts_report/static/src/xml/tax_report_views.xml:0
 #, python-format
 msgid "Sales"
-msgstr "مبيعات"
+msgstr "المبيعات"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1936,7 +1936,7 @@ msgstr "حدد حسابًا واحدًا أو أكثر."
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,help:dynamic_accounts_report.field_dynamic_balance_sheet_report__journal_ids
 msgid "Select one or more journals."
-msgstr "اختر مجلة واحدة أو أكثر."
+msgstr "حدد يومية واحدة أو أكثر."
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,help:dynamic_accounts_report.field_dynamic_balance_sheet_report__company_id
@@ -1946,17 +1946,17 @@ msgstr "حدد الشركة التي ينتمي إليها هذا السجل."
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,help:dynamic_accounts_report.field_dynamic_balance_sheet_report__target_move
 msgid "Select the target move status."
-msgstr "حدد حالة التحرك المستهدف."
+msgstr "حدد حالة الحركة المستهدفة."
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,help:dynamic_accounts_report.field_dynamic_balance_sheet_report__date_to
 msgid "Specify the end date."
-msgstr "حدد تاريخ الانتهاء."
+msgstr "حدد تاريخ النهاية."
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,help:dynamic_accounts_report.field_dynamic_balance_sheet_report__date_from
 msgid "Specify the start date."
-msgstr "حدد تاريخ البدء."
+msgstr "حدد تاريخ البداية."
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1968,7 +1968,7 @@ msgstr "حدد تاريخ البدء."
 msgid ""
 "Start\n"
 "                                                Date :"
-msgstr "تاريخ البدء :"
+msgstr "تاريخ البداية:"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -1988,12 +1988,12 @@ msgstr "تاريخ البدء :"
 msgid ""
 "Start\n"
 "                                            Date :"
-msgstr "تاريخ البدء :"
+msgstr "تاريخ البداية:"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_dynamic_balance_sheet_report__date_from
 msgid "Start date"
-msgstr "تاريخ البدء"
+msgstr "تاريخ البداية"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -2004,12 +2004,12 @@ msgstr "تاريخ البدء"
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.tax_report
 #, python-format
 msgid "TAX"
-msgstr "ضريبة"
+msgstr "الضريبة"
 
 #. module: dynamic_accounts_report
 #: model:ir.model.fields,field_description:dynamic_accounts_report.field_dynamic_balance_sheet_report__target_move
 msgid "Target Move"
-msgstr "تحرك الهدف"
+msgstr "الحركة المستهدفة"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -2019,12 +2019,12 @@ msgstr "تحرك الهدف"
 #: code:addons/dynamic_accounts_report/static/src/xml/profit_and_loss_templates.xml:0
 #, python-format
 msgid "Target Move:"
-msgstr "تحرك الهدف:"
+msgstr "الحركة المستهدفة:"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.profit_loss
 msgid "Target move"
-msgstr "تحرك الهدف"
+msgstr "الحركة المستهدفة"
 
 #. module: dynamic_accounts_report
 #: model:ir.actions.client,name:dynamic_accounts_report.action_tax_report
@@ -2032,7 +2032,7 @@ msgstr "تحرك الهدف"
 #: model:ir.model,name:dynamic_accounts_report.model_tax_report
 #: model:ir.ui.menu,name:dynamic_accounts_report.tax_report_menu
 msgid "Tax Report"
-msgstr "تقرير الضرائب"
+msgstr "تقرير الضريبة"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -2137,7 +2137,7 @@ msgstr "اليوم"
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.partner_ledger
 #, python-format
 msgid "Total"
-msgstr ""
+msgstr "الإجمالي"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -2147,7 +2147,7 @@ msgstr ""
 msgid ""
 "Total\n"
 "                                                    Expenses"
-msgstr "المصروفات الكلية"
+msgstr "إجمالي المصروفات"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -2163,7 +2163,7 @@ msgstr "إجمالي الأصول"
 #: code:addons/dynamic_accounts_report/static/src/xml/balance_sheet_template.xml:0
 #, python-format
 msgid "Total Current Assets"
-msgstr "إجمالي الممتلكات الحالية"
+msgstr "إجمالي الأصول المتداولة"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -2171,7 +2171,7 @@ msgstr "إجمالي الممتلكات الحالية"
 #: code:addons/dynamic_accounts_report/static/src/xml/balance_sheet_template.xml:0
 #, python-format
 msgid "Total Current Liabilities"
-msgstr "إجمالي الطلبات الحالية"
+msgstr "إجمالي الالتزامات المتداولة"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -2179,7 +2179,7 @@ msgstr "إجمالي الطلبات الحالية"
 #: code:addons/dynamic_accounts_report/static/src/xml/balance_sheet_template.xml:0
 #, python-format
 msgid "Total EQUITY"
-msgstr "مجموع الاسهم"
+msgstr "إجمالي حقوق الملكية"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -2187,7 +2187,7 @@ msgstr "مجموع الاسهم"
 #: code:addons/dynamic_accounts_report/static/src/xml/profit_and_loss_templates.xml:0
 #, python-format
 msgid "Total Income"
-msgstr "إجمالي الدخل"
+msgstr "إجمالي الإيرادات"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -2195,7 +2195,7 @@ msgstr "إجمالي الدخل"
 #: code:addons/dynamic_accounts_report/static/src/xml/balance_sheet_template.xml:0
 #, python-format
 msgid "Total LIABILITIES"
-msgstr "اجمالي المطلوبات"
+msgstr "إجمالي الالتزامات"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -2203,7 +2203,7 @@ msgstr "اجمالي المطلوبات"
 #: code:addons/dynamic_accounts_report/static/src/xml/balance_sheet_template.xml:0
 #, python-format
 msgid "Total Unallocated Earnings"
-msgstr "إجمالي الأرباح غير المخصصة"
+msgstr "إجمالي الأرباح غير الموزعة"
 
 #. module: dynamic_accounts_report
 #: model:ir.actions.client,name:dynamic_accounts_report.action_trial_balance
@@ -2223,7 +2223,7 @@ msgstr "تقرير ميزان المراجعة"
 #: code:addons/dynamic_accounts_report/static/src/xml/balance_sheet_template.xml:0
 #, python-format
 msgid "Unallocated Earnings"
-msgstr "الأرباح غير المخصصة"
+msgstr "الأرباح غير الموزعة"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -2245,7 +2245,7 @@ msgstr "الأرباح غير المخصصة"
 #: code:addons/dynamic_accounts_report/static/src/xml/profit_and_loss_templates.xml:0
 #, python-format
 msgid "Unfold All"
-msgstr "تتكشف الكل"
+msgstr "توسيع الكل"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -2282,7 +2282,7 @@ msgid ""
 "View\n"
 "                                                                        Journal\n"
 "                                                                        Entry"
-msgstr "عرض إدخال دفتر اليومية"
+msgstr "عرض قيد اليومية"
 
 #. module: dynamic_accounts_report
 #. odoo-javascript
@@ -2295,12 +2295,12 @@ msgid ""
 "View\n"
 "                                                                    Journal\n"
 "                                                                    Entry"
-msgstr "عرض إدخال دفتر اليومية"
+msgstr "عرض قيد اليومية"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.bank_book
 msgid "posted,"
-msgstr "نشر"
+msgstr "مرحّل،"
 
 #. module: dynamic_accounts_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.bank_book
@@ -2309,4 +2309,4 @@ msgstr "نشر"
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.tax_report
 #: model_terms:ir.ui.view,arch_db:dynamic_accounts_report.trial_balance
 msgid "to"
-msgstr "ل"
+msgstr "إلى"
