@@ -189,13 +189,9 @@ class AccountGeneralLedger(models.TransientModel):
                 move_line_list.append(move_line_data)
             account_dict[account.display_name] = move_line_list
             currency_id = self.env.company.currency_id.symbol
-            total_debit = round(sum(move_line_id.mapped('debit')), 2)
-            total_credit = round(sum(move_line_id.mapped('credit')), 2)
             account_totals[account.display_name] = {
-                'total_debit': total_debit,
-                'total_debit_display': "{:,.2f}".format(total_debit),
-                'total_credit': total_credit,
-                'total_credit_display': "{:,.2f}".format(total_credit),
+                'total_debit': round(sum(move_line_id.mapped('debit')), 2),
+                'total_credit': round(sum(move_line_id.mapped('credit')), 2),
                 'currency_id': currency_id,
                 'account_id': account.id}
             account_dict['account_totals'] = account_totals
@@ -224,109 +220,144 @@ class AccountGeneralLedger(models.TransientModel):
         end_date = data['filters']['end_date'] if \
             data['filters']['end_date'] else ''
         sheet = workbook.add_worksheet()
+        
+        # Define formats - FIXED: Changed '15px' and '10px' to numeric values
         head = workbook.add_format(
-            {'align': 'center', 'bold': True, 'font_size': '15px'})
+            {'align': 'center', 'bold': True, 'font_size': 15})
         sub_heading = workbook.add_format(
-            {'align': 'center', 'bold': True, 'font_size': '10px',
+            {'align': 'center', 'bold': True, 'font_size': 10,
              'border': 1, 'bg_color': '#D3D3D3',
              'border_color': 'black'})
         filter_head = workbook.add_format(
-            {'align': 'center', 'bold': True, 'font_size': '10px',
+            {'align': 'center', 'bold': True, 'font_size': 10,
              'border': 1, 'bg_color': '#D3D3D3',
              'border_color': 'black'})
         filter_body = workbook.add_format(
-            {'align': 'center', 'bold': True, 'font_size': '10px'})
+            {'align': 'center', 'bold': True, 'font_size': 10})
         side_heading_sub = workbook.add_format(
-            {'align': 'left', 'bold': True, 'font_size': '10px',
+            {'align': 'left', 'bold': True, 'font_size': 10,
              'border': 1,
              'border_color': 'black'})
         side_heading_sub.set_indent(1)
-        txt_name = workbook.add_format({'font_size': '10px', 'border': 1})
+        txt_name = workbook.add_format({'font_size': 10, 'border': 1})
         txt_name.set_indent(2)
+        
+        # Set column widths for all 13 columns
         sheet.set_column(0, 0, 30)
         sheet.set_column(1, 1, 20)
         sheet.set_column(2, 2, 15)
         sheet.set_column(3, 3, 15)
-        col = 0
-        sheet.write('A1:b1', report_name, head)
-        sheet.write('B3:b4', 'Date Range', filter_head)
-        sheet.write('B4:b4', 'Journals', filter_head)
-        sheet.write('B5:b4', 'Analytic', filter_head)
-        sheet.write('B6:b4', 'Options', filter_head)
+        sheet.set_column(4, 4, 15)
+        sheet.set_column(5, 5, 15)
+        sheet.set_column(6, 6, 15)
+        sheet.set_column(7, 7, 15)
+        sheet.set_column(8, 8, 15)
+        sheet.set_column(9, 9, 15)
+        sheet.set_column(10, 10, 15)
+        sheet.set_column(11, 11, 15)
+        sheet.set_column(12, 12, 15)
+        
+        # Write headers and filters - FIXED: Corrected sheet.write calls
+        row = 0
+        sheet.merge_range(row, 0, row, 12, report_name, head)
+        
+        row += 2
+        sheet.write(row, 1, 'Date Range', filter_head)
+        sheet.write(row, 2, '', filter_body)
         if start_date or end_date:
-            sheet.merge_range('C3:G3', f"{start_date} to {end_date}",
+            sheet.merge_range(row, 2, row, 12, f"{start_date} to {end_date}",
                               filter_body)
+        
+        row += 1
+        sheet.write(row, 1, 'Journals', filter_head)
         if data['filters']['journal']:
             display_names = [journal for
                              journal in data['filters']['journal']]
             display_names_str = ', '.join(display_names)
-            sheet.merge_range('C4:G4', display_names_str, filter_body)
+            sheet.merge_range(row, 2, row, 12, display_names_str, filter_body)
+        
+        row += 1
+        sheet.write(row, 1, 'Analytic', filter_head)
         if data['filters']['analytic']:
             display_names = [analytic for
                              analytic in data['filters']['analytic']]
             account_keys_str = ', '.join(display_names)
-            sheet.merge_range('C5:G5', account_keys_str, filter_body)
+            sheet.merge_range(row, 2, row, 12, account_keys_str, filter_body)
+        
+        row += 1
+        sheet.write(row, 1, 'Options', filter_head)
         if data['filters']['options']:
             option_keys = list(data['filters']['options'].keys())
             option_keys_str = ', '.join(option_keys)
-            sheet.merge_range('C6:G6', option_keys_str, filter_body)
+            sheet.merge_range(row, 2, row, 12, option_keys_str, filter_body)
+        
+        # Process partner data
+        row += 2
         if data:
             if report_action == 'dynamic_accounts_report.action_general_ledger':
-                sheet.write(8, col, ' ', sub_heading)
-                sheet.write(8, col + 1, 'Date', sub_heading)
-                sheet.merge_range('C9:E9', 'Communication', sub_heading)
-                sheet.merge_range('F9:G9', 'Partner', sub_heading)
-                sheet.merge_range('H9:I9', 'Debit', sub_heading)
-                sheet.merge_range('J9:K9', 'Credit', sub_heading)
-                sheet.merge_range('L9:M9', 'Balance', sub_heading)
-                row = 8
+                # Write column headers - FIXED: Corrected merge_range calls
+                sheet.write(row, 0, ' ', sub_heading)
+                sheet.write(row, 1, 'Date', sub_heading)
+                sheet.merge_range(row, 2, row, 4, 'Communication', sub_heading)
+                sheet.merge_range(row, 5, row, 6, 'Partner', sub_heading)
+                sheet.merge_range(row, 7, row, 8, 'Debit', sub_heading)
+                sheet.merge_range(row, 9, row, 10, 'Credit', sub_heading)
+                sheet.merge_range(row, 11, row, 12, 'Balance', sub_heading)
+                
                 if data['account']:
                     for account in data['account']:
                         row += 1
-                        sheet.write(row, col, account, txt_name)
-                        sheet.write(row, col + 1, ' ', txt_name)
-                        sheet.merge_range(row, col + 2, row, col + 4, ' ', txt_name)
-                        sheet.merge_range(row, col + 5, row, col + 6, ' ',
+                        sheet.write(row, 0, account, txt_name)
+                        sheet.write(row, 1, ' ', txt_name)
+                        sheet.merge_range(row, 2, row, 4, ' ', txt_name)
+                        sheet.merge_range(row, 5, row, 6, ' ',
                                           txt_name)
-                        sheet.merge_range(row, col + 7, row, col + 8,
+                        sheet.merge_range(row, 7, row, 8,
                                           data['total'][account]['total_debit_display'],
                                           txt_name)
-                        sheet.merge_range(row, col + 9, row, col + 10,
+                        sheet.merge_range(row, 9, row, 10,
                                           data['total'][account]['total_credit_display'],
                                           txt_name)
-                        sheet.merge_range(row, col + 11, row, col + 12,
+                        sheet.merge_range(row, 11, row, 12,
                                           data['total'][account]['balance_display'],
                                           txt_name)
                         for rec in data['data'][account]:
                             row += 1
                             partner = rec[0]['partner_id']
                             name = partner[1] if partner else None
-                            sheet.write(row, col, rec[0]['move_name'], txt_name)
-                            sheet.write(row, col + 1, rec[0]['date'], txt_name)
-                            sheet.merge_range(row, col + 2, row, col + 4,
+                            sheet.write(row, 0, rec[0]['move_name'], txt_name)
+                            sheet.write(row, 1, rec[0]['date'], txt_name)
+                            sheet.merge_range(row, 2, row, 4,
                                               rec[0]['name'], txt_name)
-                            sheet.merge_range(row, col + 5, row, col + 6, name,
+                            sheet.merge_range(row, 5, row, 6, name,
                                               txt_name)
-                            sheet.merge_range(row, col + 7, row, col + 8,
+                            sheet.merge_range(row, 7, row, 8,
                                               rec[0]['debit'],
                                               txt_name)
-                            sheet.merge_range(row, col + 9, row, col + 10,
+                            sheet.merge_range(row, 9, row, 10,
                                               rec[0]['credit'], txt_name)
-                            sheet.merge_range(row, col + 11, row, col + 12, ' ',
+                            sheet.merge_range(row, 11, row, 12, ' ',
                                               txt_name)
+                    
+                    # Grand totals - FIXED: Corrected column indices
                     row += 1
-                    sheet.merge_range(row, col, row, col + 6, 'Total',
+                    sheet.merge_range(row, 0, row, 6, 'Total',
                                       filter_head)
-                    sheet.merge_range(row, col + 7, row, col + 8,
+                    sheet.merge_range(row, 7, row, 8,
                                       data['grand_total']['total_debit_display'],
                                       filter_head)
-                    sheet.merge_range(row, col + 9, row, col + 10,
+                    sheet.merge_range(row, 9, row, 10,
                                       data['grand_total']['total_credit_display'],
                                       filter_head)
-                    sheet.merge_range(row, col + 11, row, col + 12,
-                                      float(data['grand_total']['total_debit']) -
-                                      float(data['grand_total']['total_credit']),
+                    
+                    # Calculate grand balance
+                    grand_debit = float(data['grand_total']['total_debit'])
+                    grand_credit = float(data['grand_total']['total_credit'])
+                    grand_balance = grand_debit - grand_credit
+                    sheet.merge_range(row, 11, row, 12,
+                                      grand_balance,
                                       filter_head)
+        
         workbook.close()
         output.seek(0)
         response.stream.write(output.read())
